@@ -1,0 +1,1680 @@
+Detailed,,,,,,,,
+ ==================== ,,,,,,,,
+Variable,Value,Unit,Category,Channel,Collection,Image,Time,ID
+Area,2.29178,um^2,Surface,,,,1,0
+Area,0.0660608,um^2,Surface,,,,1,1
+Area,1.21009,um^2,Surface,,,,1,2
+Area,0.0660608,um^2,Surface,,,,1,3
+Area,0.100499,um^2,Surface,,,,1,4
+Area,0.0196366,um^2,Surface,,,,1,5
+Area,0.25102,um^2,Surface,,,,1,6
+Area,0.057859,um^2,Surface,,,,1,7
+Area,0.860804,um^2,Surface,,,,1,8
+Area,0.033092,um^2,Surface,,,,1,9
+Area,0.0330924,um^2,Surface,,,,1,10
+Area,0.0330923,um^2,Surface,,,,1,11
+Area,0.000520974,um^2,Surface,,,,1,12
+Area,0.0330924,um^2,Surface,,,,1,13
+Area,0.033095,um^2,Surface,,,,1,14
+Area,0.0330931,um^2,Surface,,,,1,15
+Area,1.72451,um^2,Surface,,,,1,16
+Area,0.184447,um^2,Surface,,,,1,17
+Area,0.117203,um^2,Surface,,,,1,18
+Area,1.53707,um^2,Surface,,,,1,19
+Area,0.0423776,um^2,Surface,,,,1,20
+Area,0.0663455,um^2,Surface,,,,1,21
+Area,2.85218,um^2,Surface,,,,1,22
+Area,6.25802,um^2,Surface,,,,1,23
+Area,0.0422752,um^2,Surface,,,,1,24
+Area,0.169544,um^2,Surface,,,,1,25
+Area,0.311549,um^2,Surface,,,,1,26
+Area,0.0330933,um^2,Surface,,,,1,27
+Area,2.42685,um^2,Surface,,,,1,28
+Area,0.0330924,um^2,Surface,,,,1,29
+Area,0.102395,um^2,Surface,,,,1,30
+Area,0.136836,um^2,Surface,,,,1,31
+Area,0.0780898,um^2,Surface,,,,1,32
+Area,1.29366,um^2,Surface,,,,1,33
+Area,3.29199,um^2,Surface,,,,1,34
+Area,0.0330936,um^2,Surface,,,,1,35
+Area,7.50276,um^2,Surface,,,,1,36
+Area,5.57975,um^2,Surface,,,,1,37
+Area,9.75345,um^2,Surface,,,,1,38
+Area,9.661,um^2,Surface,,,,1,39
+Area,27.8996,um^2,Surface,,,,1,40
+Area,4.39458,um^2,Surface,,,,1,41
+Area,0.158604,um^2,Surface,,,,1,42
+Contact surface area,0.09,um,Surface,,,,,0
+Contact surface area,2.525,um,Surface,,,,,1
+Contact surface area,0.015,um,Surface,,,,,2
+Contact surface area,0.04,um,Surface,,,,,3
+Contact surface area,0.755,um,Surface,,,,,4
+Contact surface area,0.015,um,Surface,,,,,5
+Contact surface area,0.015,um,Surface,,,,,6
+Contact surface area,0.05,um,Surface,,,,,7
+Contact surface area,0.065,um,Surface,,,,,8
+Contact surface area,3.0175,um,Surface,,,,,9
+Contact surface area,5.68,um,Surface,,,,,10
+Contact surface area,5.53,um,Surface,,,,,11
+Contact surface area,0.015,um,Surface,,,,,12
+Contact surface area,0.015,um,Surface,,,,,13
+Contact surface area,4.2675,um,Surface,,,,,14
+Contact surface area,0.015,um,Surface,,,,,15
+Contact surface area,0.015,um,Surface,,,,,16
+Contact surface area,0.015,um,Surface,,,,,17
+Contact surface area,0.0025,um,Surface,,,,,18
+Contact surface area,0.04,um,Surface,,,,,19
+Contact surface area,3.6275,um,Surface,,,,,20
+Contact surface area,0.025,um,Surface,,,,,21
+Contact surface area,0.09,um,Surface,,,,,22
+Contact surface area,0.16,um,Surface,,,,,23
+Contact surface area,0.015,um,Surface,,,,,24
+Contact surface area,1.3,um,Surface,,,,,25
+Contact surface area,16.15,um,Surface,,,,,26
+Contact surface area,0.0975,um,Surface,,,,,27
+Contact surface area,0.06,um,Surface,,,,,28
+Contact surface area,0.8425,um,Surface,,,,,29
+Contact surface area,0.025,um,Surface,,,,,30
+Contact surface area,1.5575,um,Surface,,,,,31
+Contact surface area,1.855,um,Surface,,,,,32
+Contact surface area,0.48,um,Surface,,,,,33
+Contact surface area,0.9575,um,Surface,,,,,34
+Contact surface area,0.135,um,Surface,,,,,35
+Contact surface area,0.0325,um,Surface,,,,,36
+Contact surface area,0.0125,um,Surface,,,,,37
+Contact surface area,0.045,um,Surface,,,,,38
+Contact surface area,1.2725,um,Surface,,,,,39
+Contact surface area,0.03,um,Surface,,,,,40
+Contact surface area,0.03,um,Surface,,,,,41
+Contact surface area,0.66,um,Surface,,,,,42
+Distance from Origin,125.404,um,Surface,,Distance from Origin,,1,0
+Distance from Origin,142.059,um,Surface,,Distance from Origin,,1,1
+Distance from Origin,145.168,um,Surface,,Distance from Origin,,1,2
+Distance from Origin,125.425,um,Surface,,Distance from Origin,,1,3
+Distance from Origin,142.315,um,Surface,,Distance from Origin,,1,4
+Distance from Origin,112.714,um,Surface,,Distance from Origin,,1,5
+Distance from Origin,108.426,um,Surface,,Distance from Origin,,1,6
+Distance from Origin,108.194,um,Surface,,Distance from Origin,,1,7
+Distance from Origin,123.086,um,Surface,,Distance from Origin,,1,8
+Distance from Origin,114.931,um,Surface,,Distance from Origin,,1,9
+Distance from Origin,115.35,um,Surface,,Distance from Origin,,1,10
+Distance from Origin,112.912,um,Surface,,Distance from Origin,,1,11
+Distance from Origin,112.926,um,Surface,,Distance from Origin,,1,12
+Distance from Origin,111.914,um,Surface,,Distance from Origin,,1,13
+Distance from Origin,110.009,um,Surface,,Distance from Origin,,1,14
+Distance from Origin,110.232,um,Surface,,Distance from Origin,,1,15
+Distance from Origin,119.934,um,Surface,,Distance from Origin,,1,16
+Distance from Origin,119.123,um,Surface,,Distance from Origin,,1,17
+Distance from Origin,119.161,um,Surface,,Distance from Origin,,1,18
+Distance from Origin,117.608,um,Surface,,Distance from Origin,,1,19
+Distance from Origin,117.219,um,Surface,,Distance from Origin,,1,20
+Distance from Origin,115.11,um,Surface,,Distance from Origin,,1,21
+Distance from Origin,116.037,um,Surface,,Distance from Origin,,1,22
+Distance from Origin,114.96,um,Surface,,Distance from Origin,,1,23
+Distance from Origin,112.83,um,Surface,,Distance from Origin,,1,24
+Distance from Origin,112.932,um,Surface,,Distance from Origin,,1,25
+Distance from Origin,112.875,um,Surface,,Distance from Origin,,1,26
+Distance from Origin,111.377,um,Surface,,Distance from Origin,,1,27
+Distance from Origin,113.169,um,Surface,,Distance from Origin,,1,28
+Distance from Origin,111.843,um,Surface,,Distance from Origin,,1,29
+Distance from Origin,109.898,um,Surface,,Distance from Origin,,1,30
+Distance from Origin,110.789,um,Surface,,Distance from Origin,,1,31
+Distance from Origin,117.147,um,Surface,,Distance from Origin,,1,32
+Distance from Origin,117.406,um,Surface,,Distance from Origin,,1,33
+Distance from Origin,115.811,um,Surface,,Distance from Origin,,1,34
+Distance from Origin,112.317,um,Surface,,Distance from Origin,,1,35
+Distance from Origin,113.148,um,Surface,,Distance from Origin,,1,36
+Distance from Origin,112.05,um,Surface,,Distance from Origin,,1,37
+Distance from Origin,111.225,um,Surface,,Distance from Origin,,1,38
+Distance from Origin,110.401,um,Surface,,Distance from Origin,,1,39
+Distance from Origin,112.293,um,Surface,,Distance from Origin,,1,40
+Distance from Origin,112.825,um,Surface,,Distance from Origin,,1,41
+Distance from Origin,129.855,um,Surface,,Distance from Origin,,1,42
+Distance to Image Border XY,49.1043,um,Surface,,,Image 1,1,0
+Distance to Image Border XY,42.575,um,Surface,,,Image 1,1,1
+Distance to Image Border XY,43.554,um,Surface,,,Image 1,1,2
+Distance to Image Border XY,48.825,um,Surface,,,Image 1,1,3
+Distance to Image Border XY,42.5917,um,Surface,,,Image 1,1,4
+Distance to Image Border XY,39.82,um,Surface,,,Image 1,1,5
+Distance to Image Border XY,34.8324,um,Surface,,,Image 1,1,6
+Distance to Image Border XY,34.6231,um,Surface,,,Image 1,1,7
+Distance to Image Border XY,54.213,um,Surface,,,Image 1,1,8
+Distance to Image Border XY,45.825,um,Surface,,,Image 1,1,9
+Distance to Image Border XY,46.225,um,Surface,,,Image 1,1,10
+Distance to Image Border XY,40.975,um,Surface,,,Image 1,1,11
+Distance to Image Border XY,40.025,um,Surface,,,Image 1,1,12
+Distance to Image Border XY,34.775,um,Surface,,,Image 1,1,13
+Distance to Image Border XY,34.975,um,Surface,,,Image 1,1,14
+Distance to Image Border XY,35.175,um,Surface,,,Image 1,1,15
+Distance to Image Border XY,52.0868,um,Surface,,,Image 1,1,16
+Distance to Image Border XY,50.4359,um,Surface,,,Image 1,1,17
+Distance to Image Border XY,50.225,um,Surface,,,Image 1,1,18
+Distance to Image Border XY,49.2736,um,Surface,,,Image 1,1,19
+Distance to Image Border XY,48.22,um,Surface,,,Image 1,1,20
+Distance to Image Border XY,45.825,um,Surface,,,Image 1,1,21
+Distance to Image Border XY,46.0709,um,Surface,,,Image 1,1,22
+Distance to Image Border XY,45.5681,um,Surface,,,Image 1,1,23
+Distance to Image Border XY,39.805,um,Surface,,,Image 1,1,24
+Distance to Image Border XY,43.6306,um,Surface,,,Image 1,1,25
+Distance to Image Border XY,43.0742,um,Surface,,,Image 1,1,26
+Distance to Image Border XY,39.825,um,Surface,,,Image 1,1,27
+Distance to Image Border XY,42.3898,um,Surface,,,Image 1,1,28
+Distance to Image Border XY,34.775,um,Surface,,,Image 1,1,29
+Distance to Image Border XY,34.685,um,Surface,,,Image 1,1,30
+Distance to Image Border XY,33.4058,um,Surface,,,Image 1,1,31
+Distance to Image Border XY,48.025,um,Surface,,,Image 1,1,32
+Distance to Image Border XY,48.6101,um,Surface,,,Image 1,1,33
+Distance to Image Border XY,44.3241,um,Surface,,,Image 1,1,34
+Distance to Image Border XY,33.025,um,Surface,,,Image 1,1,35
+Distance to Image Border XY,32.5909,um,Surface,,,Image 1,1,36
+Distance to Image Border XY,35.2386,um,Surface,,,Image 1,1,37
+Distance to Image Border XY,33.6225,um,Surface,,,Image 1,1,38
+Distance to Image Border XY,34.0062,um,Surface,,,Image 1,1,39
+Distance to Image Border XY,39.1331,um,Surface,,,Image 1,1,40
+Distance to Image Border XY,40.0206,um,Surface,,,Image 1,1,41
+Distance to Image Border XY,23.2333,um,Surface,,,Image 1,1,42
+Ellipticity (oblate),0.431428,,Surface,,,,1,0
+Ellipticity (oblate),0.670554,,Surface,,,,1,1
+Ellipticity (oblate),0.565283,,Surface,,,,1,2
+Ellipticity (oblate),0.670554,,Surface,,,,1,3
+Ellipticity (oblate),0.468691,,Surface,,,,1,4
+Ellipticity (oblate),0.490896,,Surface,,,,1,5
+Ellipticity (oblate),0.0997064,,Surface,,,,1,6
+Ellipticity (oblate),0.150737,,Surface,,,,1,7
+Ellipticity (oblate),0.582096,,Surface,,,,1,8
+Ellipticity (oblate),0.527969,,Surface,,,,1,9
+Ellipticity (oblate),0.527975,,Surface,,,,1,10
+Ellipticity (oblate),0.527981,,Surface,,,,1,11
+Ellipticity (oblate),0.000219295,,Surface,,,,1,12
+Ellipticity (oblate),0.527997,,Surface,,,,1,13
+Ellipticity (oblate),0.52803,,Surface,,,,1,14
+Ellipticity (oblate),0.527965,,Surface,,,,1,15
+Ellipticity (oblate),0.415084,,Surface,,,,1,16
+Ellipticity (oblate),0.545567,,Surface,,,,1,17
+Ellipticity (oblate),0.593844,,Surface,,,,1,18
+Ellipticity (oblate),0.847997,,Surface,,,,1,19
+Ellipticity (oblate),0.220298,,Surface,,,,1,20
+Ellipticity (oblate),0.770979,,Surface,,,,1,21
+Ellipticity (oblate),0.857501,,Surface,,,,1,22
+Ellipticity (oblate),0.721321,,Surface,,,,1,23
+Ellipticity (oblate),0.529839,,Surface,,,,1,24
+Ellipticity (oblate),0.502747,,Surface,,,,1,25
+Ellipticity (oblate),0.448704,,Surface,,,,1,26
+Ellipticity (oblate),0.527961,,Surface,,,,1,27
+Ellipticity (oblate),0.869918,,Surface,,,,1,28
+Ellipticity (oblate),0.527997,,Surface,,,,1,29
+Ellipticity (oblate),0.281182,,Surface,,,,1,30
+Ellipticity (oblate),0.126185,,Surface,,,,1,31
+Ellipticity (oblate),0.952351,,Surface,,,,1,32
+Ellipticity (oblate),0.545713,,Surface,,,,1,33
+Ellipticity (oblate),0.638113,,Surface,,,,1,34
+Ellipticity (oblate),0.527995,,Surface,,,,1,35
+Ellipticity (oblate),0.38512,,Surface,,,,1,36
+Ellipticity (oblate),0.594727,,Surface,,,,1,37
+Ellipticity (oblate),0.513382,,Surface,,,,1,38
+Ellipticity (oblate),0.4298,,Surface,,,,1,39
+Ellipticity (oblate),0.352897,,Surface,,,,1,40
+Ellipticity (oblate),0.321116,,Surface,,,,1,41
+Ellipticity (oblate),0.587024,,Surface,,,,1,42
+Ellipticity (prolate),0.110671,,Surface,,,,1,0
+Ellipticity (prolate),0.110301,,Surface,,,,1,1
+Ellipticity (prolate),0.125154,,Surface,,,,1,2
+Ellipticity (prolate),0.110301,,Surface,,,,1,3
+Ellipticity (prolate),0.102338,,Surface,,,,1,4
+Ellipticity (prolate),0.29026,,Surface,,,,1,5
+Ellipticity (prolate),0.472698,,Surface,,,,1,6
+Ellipticity (prolate),0.321777,,Surface,,,,1,7
+Ellipticity (prolate),0.150704,,Surface,,,,1,8
+Ellipticity (prolate),0.247678,,Surface,,,,1,9
+Ellipticity (prolate),0.247664,,Surface,,,,1,10
+Ellipticity (prolate),0.247662,,Surface,,,,1,11
+Ellipticity (prolate),0.000352775,,Surface,,,,1,12
+Ellipticity (prolate),0.247605,,Surface,,,,1,13
+Ellipticity (prolate),0.247624,,Surface,,,,1,14
+Ellipticity (prolate),0.247683,,Surface,,,,1,15
+Ellipticity (prolate),0.245859,,Surface,,,,1,16
+Ellipticity (prolate),0.294012,,Surface,,,,1,17
+Ellipticity (prolate),0.0699361,,Surface,,,,1,18
+Ellipticity (prolate),0.0492444,,Surface,,,,1,19
+Ellipticity (prolate),0.315434,,Surface,,,,1,20
+Ellipticity (prolate),0.0711261,,Surface,,,,1,21
+Ellipticity (prolate),0.0587312,,Surface,,,,1,22
+Ellipticity (prolate),0.170259,,Surface,,,,1,23
+Ellipticity (prolate),0.307247,,Surface,,,,1,24
+Ellipticity (prolate),0.324011,,Surface,,,,1,25
+Ellipticity (prolate),0.148416,,Surface,,,,1,26
+Ellipticity (prolate),0.247684,,Surface,,,,1,27
+Ellipticity (prolate),0.0583356,,Surface,,,,1,28
+Ellipticity (prolate),0.247605,,Surface,,,,1,29
+Ellipticity (prolate),0.555012,,Surface,,,,1,30
+Ellipticity (prolate),0.688574,,Surface,,,,1,31
+Ellipticity (prolate),0.0432972,,Surface,,,,1,32
+Ellipticity (prolate),0.254161,,Surface,,,,1,33
+Ellipticity (prolate),0.151991,,Surface,,,,1,34
+Ellipticity (prolate),0.247609,,Surface,,,,1,35
+Ellipticity (prolate),0.404653,,Surface,,,,1,36
+Ellipticity (prolate),0.224411,,Surface,,,,1,37
+Ellipticity (prolate),0.311194,,Surface,,,,1,38
+Ellipticity (prolate),0.433867,,Surface,,,,1,39
+Ellipticity (prolate),0.534582,,Surface,,,,1,40
+Ellipticity (prolate),0.540477,,Surface,,,,1,41
+Ellipticity (prolate),0.226931,,Surface,,,,1,42
+Generation,0,,Surface,,,,1,0
+Generation,0,,Surface,,,,1,1
+Generation,0,,Surface,,,,1,2
+Generation,0,,Surface,,,,1,3
+Generation,0,,Surface,,,,1,4
+Generation,0,,Surface,,,,1,5
+Generation,0,,Surface,,,,1,6
+Generation,0,,Surface,,,,1,7
+Generation,0,,Surface,,,,1,8
+Generation,0,,Surface,,,,1,9
+Generation,0,,Surface,,,,1,10
+Generation,0,,Surface,,,,1,11
+Generation,0,,Surface,,,,1,12
+Generation,0,,Surface,,,,1,13
+Generation,0,,Surface,,,,1,14
+Generation,0,,Surface,,,,1,15
+Generation,0,,Surface,,,,1,16
+Generation,0,,Surface,,,,1,17
+Generation,0,,Surface,,,,1,18
+Generation,0,,Surface,,,,1,19
+Generation,0,,Surface,,,,1,20
+Generation,0,,Surface,,,,1,21
+Generation,0,,Surface,,,,1,22
+Generation,0,,Surface,,,,1,23
+Generation,0,,Surface,,,,1,24
+Generation,0,,Surface,,,,1,25
+Generation,0,,Surface,,,,1,26
+Generation,0,,Surface,,,,1,27
+Generation,0,,Surface,,,,1,28
+Generation,0,,Surface,,,,1,29
+Generation,0,,Surface,,,,1,30
+Generation,0,,Surface,,,,1,31
+Generation,0,,Surface,,,,1,32
+Generation,0,,Surface,,,,1,33
+Generation,0,,Surface,,,,1,34
+Generation,0,,Surface,,,,1,35
+Generation,0,,Surface,,,,1,36
+Generation,0,,Surface,,,,1,37
+Generation,0,,Surface,,,,1,38
+Generation,0,,Surface,,,,1,39
+Generation,0,,Surface,,,,1,40
+Generation,0,,Surface,,,,1,41
+Generation,0,,Surface,,,,1,42
+Intensity Max,7,,Surface,1,,Image 1,1,0
+Intensity Max,29,,Surface,2,,Image 1,1,0
+Intensity Max,4,,Surface,3,,Image 1,1,0
+Intensity Max,10,,Surface,4,,Image 1,1,0
+Intensity Max,3,,Surface,1,,Image 1,1,1
+Intensity Max,4,,Surface,2,,Image 1,1,1
+Intensity Max,0,,Surface,3,,Image 1,1,1
+Intensity Max,0,,Surface,4,,Image 1,1,1
+Intensity Max,5,,Surface,1,,Image 1,1,2
+Intensity Max,22,,Surface,2,,Image 1,1,2
+Intensity Max,6,,Surface,3,,Image 1,1,2
+Intensity Max,10,,Surface,4,,Image 1,1,2
+Intensity Max,1,,Surface,1,,Image 1,1,3
+Intensity Max,10,,Surface,2,,Image 1,1,3
+Intensity Max,2,,Surface,3,,Image 1,1,3
+Intensity Max,0,,Surface,4,,Image 1,1,3
+Intensity Max,1,,Surface,1,,Image 1,1,4
+Intensity Max,23,,Surface,2,,Image 1,1,4
+Intensity Max,0,,Surface,3,,Image 1,1,4
+Intensity Max,0,,Surface,4,,Image 1,1,4
+Intensity Max,1,,Surface,1,,Image 1,1,5
+Intensity Max,15,,Surface,2,,Image 1,1,5
+Intensity Max,3,,Surface,3,,Image 1,1,5
+Intensity Max,0,,Surface,4,,Image 1,1,5
+Intensity Max,0,,Surface,1,,Image 1,1,6
+Intensity Max,16,,Surface,2,,Image 1,1,6
+Intensity Max,5,,Surface,3,,Image 1,1,6
+Intensity Max,0,,Surface,4,,Image 1,1,6
+Intensity Max,0,,Surface,1,,Image 1,1,7
+Intensity Max,12,,Surface,2,,Image 1,1,7
+Intensity Max,0,,Surface,3,,Image 1,1,7
+Intensity Max,0,,Surface,4,,Image 1,1,7
+Intensity Max,5,,Surface,1,,Image 1,1,8
+Intensity Max,15,,Surface,2,,Image 1,1,8
+Intensity Max,2,,Surface,3,,Image 1,1,8
+Intensity Max,0,,Surface,4,,Image 1,1,8
+Intensity Max,3,,Surface,1,,Image 1,1,9
+Intensity Max,10,,Surface,2,,Image 1,1,9
+Intensity Max,0,,Surface,3,,Image 1,1,9
+Intensity Max,0,,Surface,4,,Image 1,1,9
+Intensity Max,1,,Surface,1,,Image 1,1,10
+Intensity Max,12,,Surface,2,,Image 1,1,10
+Intensity Max,2,,Surface,3,,Image 1,1,10
+Intensity Max,0,,Surface,4,,Image 1,1,10
+Intensity Max,1,,Surface,1,,Image 1,1,11
+Intensity Max,17,,Surface,2,,Image 1,1,11
+Intensity Max,7,,Surface,3,,Image 1,1,11
+Intensity Max,0,,Surface,4,,Image 1,1,11
+Intensity Max,0,,Surface,1,,Image 1,1,12
+Intensity Max,21,,Surface,2,,Image 1,1,12
+Intensity Max,10,,Surface,3,,Image 1,1,12
+Intensity Max,0,,Surface,4,,Image 1,1,12
+Intensity Max,9,,Surface,1,,Image 1,1,13
+Intensity Max,26,,Surface,2,,Image 1,1,13
+Intensity Max,7,,Surface,3,,Image 1,1,13
+Intensity Max,0,,Surface,4,,Image 1,1,13
+Intensity Max,0,,Surface,1,,Image 1,1,14
+Intensity Max,22,,Surface,2,,Image 1,1,14
+Intensity Max,4,,Surface,3,,Image 1,1,14
+Intensity Max,0,,Surface,4,,Image 1,1,14
+Intensity Max,1,,Surface,1,,Image 1,1,15
+Intensity Max,23,,Surface,2,,Image 1,1,15
+Intensity Max,3,,Surface,3,,Image 1,1,15
+Intensity Max,0,,Surface,4,,Image 1,1,15
+Intensity Max,6,,Surface,1,,Image 1,1,16
+Intensity Max,41,,Surface,2,,Image 1,1,16
+Intensity Max,5,,Surface,3,,Image 1,1,16
+Intensity Max,8,,Surface,4,,Image 1,1,16
+Intensity Max,4,,Surface,1,,Image 1,1,17
+Intensity Max,14,,Surface,2,,Image 1,1,17
+Intensity Max,2,,Surface,3,,Image 1,1,17
+Intensity Max,3,,Surface,4,,Image 1,1,17
+Intensity Max,1,,Surface,1,,Image 1,1,18
+Intensity Max,22,,Surface,2,,Image 1,1,18
+Intensity Max,1,,Surface,3,,Image 1,1,18
+Intensity Max,9,,Surface,4,,Image 1,1,18
+Intensity Max,3,,Surface,1,,Image 1,1,19
+Intensity Max,60,,Surface,2,,Image 1,1,19
+Intensity Max,8,,Surface,3,,Image 1,1,19
+Intensity Max,17,,Surface,4,,Image 1,1,19
+Intensity Max,0,,Surface,1,,Image 1,1,20
+Intensity Max,43,,Surface,2,,Image 1,1,20
+Intensity Max,2,,Surface,3,,Image 1,1,20
+Intensity Max,2,,Surface,4,,Image 1,1,20
+Intensity Max,0,,Surface,1,,Image 1,1,21
+Intensity Max,8,,Surface,2,,Image 1,1,21
+Intensity Max,0,,Surface,3,,Image 1,1,21
+Intensity Max,0,,Surface,4,,Image 1,1,21
+Intensity Max,7,,Surface,1,,Image 1,1,22
+Intensity Max,25,,Surface,2,,Image 1,1,22
+Intensity Max,6,,Surface,3,,Image 1,1,22
+Intensity Max,25,,Surface,4,,Image 1,1,22
+Intensity Max,5,,Surface,1,,Image 1,1,23
+Intensity Max,30,,Surface,2,,Image 1,1,23
+Intensity Max,9,,Surface,3,,Image 1,1,23
+Intensity Max,20,,Surface,4,,Image 1,1,23
+Intensity Max,1,,Surface,1,,Image 1,1,24
+Intensity Max,45,,Surface,2,,Image 1,1,24
+Intensity Max,16,,Surface,3,,Image 1,1,24
+Intensity Max,1,,Surface,4,,Image 1,1,24
+Intensity Max,7,,Surface,1,,Image 1,1,25
+Intensity Max,12,,Surface,2,,Image 1,1,25
+Intensity Max,2,,Surface,3,,Image 1,1,25
+Intensity Max,4,,Surface,4,,Image 1,1,25
+Intensity Max,7,,Surface,1,,Image 1,1,26
+Intensity Max,13,,Surface,2,,Image 1,1,26
+Intensity Max,5,,Surface,3,,Image 1,1,26
+Intensity Max,0,,Surface,4,,Image 1,1,26
+Intensity Max,3,,Surface,1,,Image 1,1,27
+Intensity Max,35,,Surface,2,,Image 1,1,27
+Intensity Max,12,,Surface,3,,Image 1,1,27
+Intensity Max,0,,Surface,4,,Image 1,1,27
+Intensity Max,7,,Surface,1,,Image 1,1,28
+Intensity Max,32,,Surface,2,,Image 1,1,28
+Intensity Max,6,,Surface,3,,Image 1,1,28
+Intensity Max,20,,Surface,4,,Image 1,1,28
+Intensity Max,3,,Surface,1,,Image 1,1,29
+Intensity Max,23,,Surface,2,,Image 1,1,29
+Intensity Max,10,,Surface,3,,Image 1,1,29
+Intensity Max,0,,Surface,4,,Image 1,1,29
+Intensity Max,6,,Surface,1,,Image 1,1,30
+Intensity Max,18,,Surface,2,,Image 1,1,30
+Intensity Max,4,,Surface,3,,Image 1,1,30
+Intensity Max,0,,Surface,4,,Image 1,1,30
+Intensity Max,1,,Surface,1,,Image 1,1,31
+Intensity Max,12,,Surface,2,,Image 1,1,31
+Intensity Max,2,,Surface,3,,Image 1,1,31
+Intensity Max,5,,Surface,4,,Image 1,1,31
+Intensity Max,5,,Surface,1,,Image 1,1,32
+Intensity Max,36,,Surface,2,,Image 1,1,32
+Intensity Max,3,,Surface,3,,Image 1,1,32
+Intensity Max,1,,Surface,4,,Image 1,1,32
+Intensity Max,5,,Surface,1,,Image 1,1,33
+Intensity Max,41,,Surface,2,,Image 1,1,33
+Intensity Max,7,,Surface,3,,Image 1,1,33
+Intensity Max,3,,Surface,4,,Image 1,1,33
+Intensity Max,5,,Surface,1,,Image 1,1,34
+Intensity Max,15,,Surface,2,,Image 1,1,34
+Intensity Max,5,,Surface,3,,Image 1,1,34
+Intensity Max,23,,Surface,4,,Image 1,1,34
+Intensity Max,3,,Surface,1,,Image 1,1,35
+Intensity Max,10,,Surface,2,,Image 1,1,35
+Intensity Max,2,,Surface,3,,Image 1,1,35
+Intensity Max,0,,Surface,4,,Image 1,1,35
+Intensity Max,18,,Surface,1,,Image 1,1,36
+Intensity Max,17,,Surface,2,,Image 1,1,36
+Intensity Max,5,,Surface,3,,Image 1,1,36
+Intensity Max,22,,Surface,4,,Image 1,1,36
+Intensity Max,10,,Surface,1,,Image 1,1,37
+Intensity Max,32,,Surface,2,,Image 1,1,37
+Intensity Max,15,,Surface,3,,Image 1,1,37
+Intensity Max,11,,Surface,4,,Image 1,1,37
+Intensity Max,10,,Surface,1,,Image 1,1,38
+Intensity Max,39,,Surface,2,,Image 1,1,38
+Intensity Max,21,,Surface,3,,Image 1,1,38
+Intensity Max,23,,Surface,4,,Image 1,1,38
+Intensity Max,10,,Surface,1,,Image 1,1,39
+Intensity Max,43,,Surface,2,,Image 1,1,39
+Intensity Max,21,,Surface,3,,Image 1,1,39
+Intensity Max,20,,Surface,4,,Image 1,1,39
+Intensity Max,20,,Surface,1,,Image 1,1,40
+Intensity Max,68,,Surface,2,,Image 1,1,40
+Intensity Max,22,,Surface,3,,Image 1,1,40
+Intensity Max,22,,Surface,4,,Image 1,1,40
+Intensity Max,18,,Surface,1,,Image 1,1,41
+Intensity Max,43,,Surface,2,,Image 1,1,41
+Intensity Max,8,,Surface,3,,Image 1,1,41
+Intensity Max,15,,Surface,4,,Image 1,1,41
+Intensity Max,1,,Surface,1,,Image 1,1,42
+Intensity Max,18,,Surface,2,,Image 1,1,42
+Intensity Max,0,,Surface,3,,Image 1,1,42
+Intensity Max,0,,Surface,4,,Image 1,1,42
+Intensity Mean,0.546169,,Surface,1,,Image 1,1,0
+Intensity Mean,9.02161,,Surface,2,,Image 1,1,0
+Intensity Mean,0.328094,,Surface,3,,Image 1,1,0
+Intensity Mean,1.90766,,Surface,4,,Image 1,1,0
+Intensity Mean,1.33333,,Surface,1,,Image 1,1,1
+Intensity Mean,3.83333,,Surface,2,,Image 1,1,1
+Intensity Mean,0,,Surface,3,,Image 1,1,1
+Intensity Mean,0,,Surface,4,,Image 1,1,1
+Intensity Mean,0.541667,,Surface,1,,Image 1,1,2
+Intensity Mean,11.875,,Surface,2,,Image 1,1,2
+Intensity Mean,0.560606,,Surface,3,,Image 1,1,2
+Intensity Mean,1.95455,,Surface,4,,Image 1,1,2
+Intensity Mean,0.916667,,Surface,1,,Image 1,1,3
+Intensity Mean,7.75,,Surface,2,,Image 1,1,3
+Intensity Mean,1,,Surface,3,,Image 1,1,3
+Intensity Mean,0,,Surface,4,,Image 1,1,3
+Intensity Mean,0.333333,,Surface,1,,Image 1,1,4
+Intensity Mean,14.0556,,Surface,2,,Image 1,1,4
+Intensity Mean,0,,Surface,3,,Image 1,1,4
+Intensity Mean,0,,Surface,4,,Image 1,1,4
+Intensity Mean,0.8,,Surface,1,,Image 1,1,5
+Intensity Mean,14.8,,Surface,2,,Image 1,1,5
+Intensity Mean,2.8,,Surface,3,,Image 1,1,5
+Intensity Mean,0,,Surface,4,,Image 1,1,5
+Intensity Mean,0,,Surface,1,,Image 1,1,6
+Intensity Mean,11.6667,,Surface,2,,Image 1,1,6
+Intensity Mean,0.814815,,Surface,3,,Image 1,1,6
+Intensity Mean,0,,Surface,4,,Image 1,1,6
+Intensity Mean,0,,Surface,1,,Image 1,1,7
+Intensity Mean,10,,Surface,2,,Image 1,1,7
+Intensity Mean,0,,Surface,3,,Image 1,1,7
+Intensity Mean,0,,Surface,4,,Image 1,1,7
+Intensity Mean,0.703125,,Surface,1,,Image 1,1,8
+Intensity Mean,7.88021,,Surface,2,,Image 1,1,8
+Intensity Mean,0.145833,,Surface,3,,Image 1,1,8
+Intensity Mean,0,,Surface,4,,Image 1,1,8
+Intensity Mean,2.16667,,Surface,1,,Image 1,1,9
+Intensity Mean,9.16667,,Surface,2,,Image 1,1,9
+Intensity Mean,0,,Surface,3,,Image 1,1,9
+Intensity Mean,0,,Surface,4,,Image 1,1,9
+Intensity Mean,0.833333,,Surface,1,,Image 1,1,10
+Intensity Mean,11.6667,,Surface,2,,Image 1,1,10
+Intensity Mean,2,,Surface,3,,Image 1,1,10
+Intensity Mean,0,,Surface,4,,Image 1,1,10
+Intensity Mean,1,,Surface,1,,Image 1,1,11
+Intensity Mean,16,,Surface,2,,Image 1,1,11
+Intensity Mean,5.5,,Surface,3,,Image 1,1,11
+Intensity Mean,0,,Surface,4,,Image 1,1,11
+Intensity Mean,0,,Surface,1,,Image 1,1,12
+Intensity Mean,21,,Surface,2,,Image 1,1,12
+Intensity Mean,10,,Surface,3,,Image 1,1,12
+Intensity Mean,0,,Surface,4,,Image 1,1,12
+Intensity Mean,5.66667,,Surface,1,,Image 1,1,13
+Intensity Mean,24.5,,Surface,2,,Image 1,1,13
+Intensity Mean,6.66667,,Surface,3,,Image 1,1,13
+Intensity Mean,0,,Surface,4,,Image 1,1,13
+Intensity Mean,0,,Surface,1,,Image 1,1,14
+Intensity Mean,20.3333,,Surface,2,,Image 1,1,14
+Intensity Mean,1.83333,,Surface,3,,Image 1,1,14
+Intensity Mean,0,,Surface,4,,Image 1,1,14
+Intensity Mean,0.833333,,Surface,1,,Image 1,1,15
+Intensity Mean,19,,Surface,2,,Image 1,1,15
+Intensity Mean,2.16667,,Surface,3,,Image 1,1,15
+Intensity Mean,0,,Surface,4,,Image 1,1,15
+Intensity Mean,0.584856,,Surface,1,,Image 1,1,16
+Intensity Mean,22.9634,,Surface,2,,Image 1,1,16
+Intensity Mean,0.402089,,Surface,3,,Image 1,1,16
+Intensity Mean,0.751958,,Surface,4,,Image 1,1,16
+Intensity Mean,0.435897,,Surface,1,,Image 1,1,17
+Intensity Mean,9.58974,,Surface,2,,Image 1,1,17
+Intensity Mean,0.333333,,Surface,3,,Image 1,1,17
+Intensity Mean,0.589744,,Surface,4,,Image 1,1,17
+Intensity Mean,0.0833333,,Surface,1,,Image 1,1,18
+Intensity Mean,16.9583,,Surface,2,,Image 1,1,18
+Intensity Mean,0.25,,Surface,3,,Image 1,1,18
+Intensity Mean,3.625,,Surface,4,,Image 1,1,18
+Intensity Mean,0.664688,,Surface,1,,Image 1,1,19
+Intensity Mean,28.8368,,Surface,2,,Image 1,1,19
+Intensity Mean,1.05045,,Surface,3,,Image 1,1,19
+Intensity Mean,1.80119,,Surface,4,,Image 1,1,19
+Intensity Mean,0,,Surface,1,,Image 1,1,20
+Intensity Mean,34.6,,Surface,2,,Image 1,1,20
+Intensity Mean,0.6,,Surface,3,,Image 1,1,20
+Intensity Mean,0.6,,Surface,4,,Image 1,1,20
+Intensity Mean,0,,Surface,1,,Image 1,1,21
+Intensity Mean,6.0625,,Surface,2,,Image 1,1,21
+Intensity Mean,0,,Surface,3,,Image 1,1,21
+Intensity Mean,0,,Surface,4,,Image 1,1,21
+Intensity Mean,0.76886,,Surface,1,,Image 1,1,22
+Intensity Mean,14.9807,,Surface,2,,Image 1,1,22
+Intensity Mean,0.658106,,Surface,3,,Image 1,1,22
+Intensity Mean,2.4703,,Surface,4,,Image 1,1,22
+Intensity Mean,0.326671,,Surface,1,,Image 1,1,23
+Intensity Mean,12.4845,,Surface,2,,Image 1,1,23
+Intensity Mean,1.34114,,Surface,3,,Image 1,1,23
+Intensity Mean,2.70365,,Surface,4,,Image 1,1,23
+Intensity Mean,0.7,,Surface,1,,Image 1,1,24
+Intensity Mean,41.2,,Surface,2,,Image 1,1,24
+Intensity Mean,12.7,,Surface,3,,Image 1,1,24
+Intensity Mean,0.1,,Surface,4,,Image 1,1,24
+Intensity Mean,1.91667,,Surface,1,,Image 1,1,25
+Intensity Mean,7.38889,,Surface,2,,Image 1,1,25
+Intensity Mean,0.805556,,Surface,3,,Image 1,1,25
+Intensity Mean,3.11111,,Surface,4,,Image 1,1,25
+Intensity Mean,1.98438,,Surface,1,,Image 1,1,26
+Intensity Mean,5.98438,,Surface,2,,Image 1,1,26
+Intensity Mean,0.9375,,Surface,3,,Image 1,1,26
+Intensity Mean,0,,Surface,4,,Image 1,1,26
+Intensity Mean,2,,Surface,1,,Image 1,1,27
+Intensity Mean,29.5,,Surface,2,,Image 1,1,27
+Intensity Mean,10,,Surface,3,,Image 1,1,27
+Intensity Mean,0,,Surface,4,,Image 1,1,27
+Intensity Mean,0.955769,,Surface,1,,Image 1,1,28
+Intensity Mean,16.6846,,Surface,2,,Image 1,1,28
+Intensity Mean,0.634615,,Surface,3,,Image 1,1,28
+Intensity Mean,1.92692,,Surface,4,,Image 1,1,28
+Intensity Mean,1.83333,,Surface,1,,Image 1,1,29
+Intensity Mean,20.3333,,Surface,2,,Image 1,1,29
+Intensity Mean,6.66667,,Surface,3,,Image 1,1,29
+Intensity Mean,0,,Surface,4,,Image 1,1,29
+Intensity Mean,2.8,,Surface,1,,Image 1,1,30
+Intensity Mean,11.6,,Surface,2,,Image 1,1,30
+Intensity Mean,1.65,,Surface,3,,Image 1,1,30
+Intensity Mean,0,,Surface,4,,Image 1,1,30
+Intensity Mean,0.538462,,Surface,1,,Image 1,1,31
+Intensity Mean,10.3846,,Surface,2,,Image 1,1,31
+Intensity Mean,0.384615,,Surface,3,,Image 1,1,31
+Intensity Mean,3.15385,,Surface,4,,Image 1,1,31
+Intensity Mean,2.625,,Surface,1,,Image 1,1,32
+Intensity Mean,33.4375,,Surface,2,,Image 1,1,32
+Intensity Mean,1.125,,Surface,3,,Image 1,1,32
+Intensity Mean,0.0625,,Surface,4,,Image 1,1,32
+Intensity Mean,1.16225,,Surface,1,,Image 1,1,33
+Intensity Mean,20.7947,,Surface,2,,Image 1,1,33
+Intensity Mean,1.49669,,Surface,3,,Image 1,1,33
+Intensity Mean,0.360927,,Surface,4,,Image 1,1,33
+Intensity Mean,0.357143,,Surface,1,,Image 1,1,34
+Intensity Mean,7.34367,,Surface,2,,Image 1,1,34
+Intensity Mean,0.332884,,Surface,3,,Image 1,1,34
+Intensity Mean,2.87871,,Surface,4,,Image 1,1,34
+Intensity Mean,2.33333,,Surface,1,,Image 1,1,35
+Intensity Mean,9,,Surface,2,,Image 1,1,35
+Intensity Mean,1.33333,,Surface,3,,Image 1,1,35
+Intensity Mean,0,,Surface,4,,Image 1,1,35
+Intensity Mean,1.19566,,Surface,1,,Image 1,1,36
+Intensity Mean,7.1775,,Surface,2,,Image 1,1,36
+Intensity Mean,0.786175,,Surface,3,,Image 1,1,36
+Intensity Mean,1.67194,,Surface,4,,Image 1,1,36
+Intensity Mean,1.3894,,Surface,1,,Image 1,1,37
+Intensity Mean,16.2577,,Surface,2,,Image 1,1,37
+Intensity Mean,3.57001,,Surface,3,,Image 1,1,37
+Intensity Mean,2.17481,,Surface,4,,Image 1,1,37
+Intensity Mean,0.955106,,Surface,1,,Image 1,1,38
+Intensity Mean,18.3583,,Surface,2,,Image 1,1,38
+Intensity Mean,5.97579,,Surface,3,,Image 1,1,38
+Intensity Mean,4.28169,,Surface,4,,Image 1,1,38
+Intensity Mean,1.1528,,Surface,1,,Image 1,1,39
+Intensity Mean,16.9629,,Surface,2,,Image 1,1,39
+Intensity Mean,3.58273,,Surface,3,,Image 1,1,39
+Intensity Mean,3.65506,,Surface,4,,Image 1,1,39
+Intensity Mean,1.41347,,Surface,1,,Image 1,1,40
+Intensity Mean,24.8929,,Surface,2,,Image 1,1,40
+Intensity Mean,6.38653,,Surface,3,,Image 1,1,40
+Intensity Mean,3.52322,,Surface,4,,Image 1,1,40
+Intensity Mean,1.12079,,Surface,1,,Image 1,1,41
+Intensity Mean,19.6208,,Surface,2,,Image 1,1,41
+Intensity Mean,1.99208,,Surface,3,,Image 1,1,41
+Intensity Mean,1.42772,,Surface,4,,Image 1,1,41
+Intensity Mean,0.0555556,,Surface,1,,Image 1,1,42
+Intensity Mean,14.3889,,Surface,2,,Image 1,1,42
+Intensity Mean,0,,Surface,3,,Image 1,1,42
+Intensity Mean,0,,Surface,4,,Image 1,1,42
+Intensity Median,0,,Surface,1,,Image 1,1,0
+Intensity Median,7.992,,Surface,2,,Image 1,1,0
+Intensity Median,0.001,,Surface,3,,Image 1,1,0
+Intensity Median,0.996,,Surface,4,,Image 1,1,0
+Intensity Median,0.999,,Surface,1,,Image 1,1,1
+Intensity Median,3.99975,,Surface,2,,Image 1,1,1
+Intensity Median,0,,Surface,3,,Image 1,1,1
+Intensity Median,0,,Surface,4,,Image 1,1,1
+Intensity Median,0.002,,Surface,1,,Image 1,1,2
+Intensity Median,12.008,,Surface,2,,Image 1,1,2
+Intensity Median,0.002,,Surface,3,,Image 1,1,2
+Intensity Median,0.996,,Surface,4,,Image 1,1,2
+Intensity Median,0.99975,,Surface,1,,Image 1,1,3
+Intensity Median,7.998,,Surface,2,,Image 1,1,3
+Intensity Median,0.9995,,Surface,3,,Image 1,1,3
+Intensity Median,0,,Surface,4,,Image 1,1,3
+Intensity Median,0.00025,,Surface,1,,Image 1,1,4
+Intensity Median,12.996,,Surface,2,,Image 1,1,4
+Intensity Median,0,,Surface,3,,Image 1,1,4
+Intensity Median,0,,Surface,4,,Image 1,1,4
+Intensity Median,0.99975,,Surface,1,,Image 1,1,5
+Intensity Median,14.9998,,Surface,2,,Image 1,1,5
+Intensity Median,2.99975,,Surface,3,,Image 1,1,5
+Intensity Median,0,,Surface,4,,Image 1,1,5
+Intensity Median,0,,Surface,1,,Image 1,1,6
+Intensity Median,11.998,,Surface,2,,Image 1,1,6
+Intensity Median,0.002,,Surface,3,,Image 1,1,6
+Intensity Median,0,,Surface,4,,Image 1,1,6
+Intensity Median,0,,Surface,1,,Image 1,1,7
+Intensity Median,9.999,,Surface,2,,Image 1,1,7
+Intensity Median,0,,Surface,3,,Image 1,1,7
+Intensity Median,0,,Surface,4,,Image 1,1,7
+Intensity Median,0.002,,Surface,1,,Image 1,1,8
+Intensity Median,8,,Surface,2,,Image 1,1,8
+Intensity Median,0.0005,,Surface,3,,Image 1,1,8
+Intensity Median,0,,Surface,4,,Image 1,1,8
+Intensity Median,2.5,,Surface,1,,Image 1,1,9
+Intensity Median,9.0005,,Surface,2,,Image 1,1,9
+Intensity Median,0,,Surface,3,,Image 1,1,9
+Intensity Median,0,,Surface,4,,Image 1,1,9
+Intensity Median,0.99975,,Surface,1,,Image 1,1,10
+Intensity Median,11.9998,,Surface,2,,Image 1,1,10
+Intensity Median,2,,Surface,3,,Image 1,1,10
+Intensity Median,0,,Surface,4,,Image 1,1,10
+Intensity Median,1,,Surface,1,,Image 1,1,11
+Intensity Median,16.001,,Surface,2,,Image 1,1,11
+Intensity Median,5.501,,Surface,3,,Image 1,1,11
+Intensity Median,0,,Surface,4,,Image 1,1,11
+Intensity Median,0,,Surface,1,,Image 1,1,12
+Intensity Median,21,,Surface,2,,Image 1,1,12
+Intensity Median,10,,Surface,3,,Image 1,1,12
+Intensity Median,0,,Surface,4,,Image 1,1,12
+Intensity Median,5.498,,Surface,1,,Image 1,1,13
+Intensity Median,25,,Surface,2,,Image 1,1,13
+Intensity Median,6.99975,,Surface,3,,Image 1,1,13
+Intensity Median,0,,Surface,4,,Image 1,1,13
+Intensity Median,0,,Surface,1,,Image 1,1,14
+Intensity Median,19.999,,Surface,2,,Image 1,1,14
+Intensity Median,1.499,,Surface,3,,Image 1,1,14
+Intensity Median,0,,Surface,4,,Image 1,1,14
+Intensity Median,0.99975,,Surface,1,,Image 1,1,15
+Intensity Median,18.999,,Surface,2,,Image 1,1,15
+Intensity Median,2.4995,,Surface,3,,Image 1,1,15
+Intensity Median,0,,Surface,4,,Image 1,1,15
+Intensity Median,0.002,,Surface,1,,Image 1,1,16
+Intensity Median,22,,Surface,2,,Image 1,1,16
+Intensity Median,0.002,,Surface,3,,Image 1,1,16
+Intensity Median,0.002,,Surface,4,,Image 1,1,16
+Intensity Median,0.001,,Surface,1,,Image 1,1,17
+Intensity Median,9.996,,Surface,2,,Image 1,1,17
+Intensity Median,0.0005,,Surface,3,,Image 1,1,17
+Intensity Median,0.001,,Surface,4,,Image 1,1,17
+Intensity Median,0.00025,,Surface,1,,Image 1,1,18
+Intensity Median,17,,Surface,2,,Image 1,1,18
+Intensity Median,0.00025,,Surface,3,,Image 1,1,18
+Intensity Median,3.004,,Surface,4,,Image 1,1,18
+Intensity Median,0.999,,Surface,1,,Image 1,1,19
+Intensity Median,26.032,,Surface,2,,Image 1,1,19
+Intensity Median,0.002,,Surface,3,,Image 1,1,19
+Intensity Median,0.008,,Surface,4,,Image 1,1,19
+Intensity Median,0,,Surface,1,,Image 1,1,20
+Intensity Median,33,,Surface,2,,Image 1,1,20
+Intensity Median,0.0005,,Surface,3,,Image 1,1,20
+Intensity Median,0.0005,,Surface,4,,Image 1,1,20
+Intensity Median,0,,Surface,1,,Image 1,1,21
+Intensity Median,5.999,,Surface,2,,Image 1,1,21
+Intensity Median,0,,Surface,3,,Image 1,1,21
+Intensity Median,0,,Surface,4,,Image 1,1,21
+Intensity Median,0.998,,Surface,1,,Image 1,1,22
+Intensity Median,16,,Surface,2,,Image 1,1,22
+Intensity Median,0.002,,Surface,3,,Image 1,1,22
+Intensity Median,0.008,,Surface,4,,Image 1,1,22
+Intensity Median,0.002,,Surface,1,,Image 1,1,23
+Intensity Median,11.02,,Surface,2,,Image 1,1,23
+Intensity Median,0.999,,Surface,3,,Image 1,1,23
+Intensity Median,1,,Surface,4,,Image 1,1,23
+Intensity Median,0.99975,,Surface,1,,Image 1,1,24
+Intensity Median,42.505,,Surface,2,,Image 1,1,24
+Intensity Median,12.996,,Surface,3,,Image 1,1,24
+Intensity Median,0.00025,,Surface,4,,Image 1,1,24
+Intensity Median,1.496,,Surface,1,,Image 1,1,25
+Intensity Median,7.498,,Surface,2,,Image 1,1,25
+Intensity Median,0.9995,,Surface,3,,Image 1,1,25
+Intensity Median,2.9995,,Surface,4,,Image 1,1,25
+Intensity Median,0.998,,Surface,1,,Image 1,1,26
+Intensity Median,5.5,,Surface,2,,Image 1,1,26
+Intensity Median,0.998,,Surface,3,,Image 1,1,26
+Intensity Median,0,,Surface,4,,Image 1,1,26
+Intensity Median,2,,Surface,1,,Image 1,1,27
+Intensity Median,29.5,,Surface,2,,Image 1,1,27
+Intensity Median,9.999,,Surface,3,,Image 1,1,27
+Intensity Median,0,,Surface,4,,Image 1,1,27
+Intensity Median,0.998,,Surface,1,,Image 1,1,28
+Intensity Median,16,,Surface,2,,Image 1,1,28
+Intensity Median,0.002,,Surface,3,,Image 1,1,28
+Intensity Median,0.008,,Surface,4,,Image 1,1,28
+Intensity Median,1.5,,Surface,1,,Image 1,1,29
+Intensity Median,19.998,,Surface,2,,Image 1,1,29
+Intensity Median,5.9995,,Surface,3,,Image 1,1,29
+Intensity Median,0,,Surface,4,,Image 1,1,29
+Intensity Median,2.998,,Surface,1,,Image 1,1,30
+Intensity Median,11.004,,Surface,2,,Image 1,1,30
+Intensity Median,1.002,,Surface,3,,Image 1,1,30
+Intensity Median,0,,Surface,4,,Image 1,1,30
+Intensity Median,0.99975,,Surface,1,,Image 1,1,31
+Intensity Median,10.998,,Surface,2,,Image 1,1,31
+Intensity Median,0.0005,,Surface,3,,Image 1,1,31
+Intensity Median,3.998,,Surface,4,,Image 1,1,31
+Intensity Median,2.499,,Surface,1,,Image 1,1,32
+Intensity Median,33.5,,Surface,2,,Image 1,1,32
+Intensity Median,1.001,,Surface,3,,Image 1,1,32
+Intensity Median,0.00025,,Surface,4,,Image 1,1,32
+Intensity Median,0.998,,Surface,1,,Image 1,1,33
+Intensity Median,19.008,,Surface,2,,Image 1,1,33
+Intensity Median,0.998,,Surface,3,,Image 1,1,33
+Intensity Median,0.001,,Surface,4,,Image 1,1,33
+Intensity Median,0.002,,Surface,1,,Image 1,1,34
+Intensity Median,8,,Surface,2,,Image 1,1,34
+Intensity Median,0.002,,Surface,3,,Image 1,1,34
+Intensity Median,1,,Surface,4,,Image 1,1,34
+Intensity Median,2.00025,,Surface,1,,Image 1,1,35
+Intensity Median,8.9995,,Surface,2,,Image 1,1,35
+Intensity Median,1.00025,,Surface,3,,Image 1,1,35
+Intensity Median,0,,Surface,4,,Image 1,1,35
+Intensity Median,1,,Surface,1,,Image 1,1,36
+Intensity Median,7.008,,Surface,2,,Image 1,1,36
+Intensity Median,0.002,,Surface,3,,Image 1,1,36
+Intensity Median,0.006,,Surface,4,,Image 1,1,36
+Intensity Median,0.996,,Surface,1,,Image 1,1,37
+Intensity Median,15.992,,Surface,2,,Image 1,1,37
+Intensity Median,3,,Surface,3,,Image 1,1,37
+Intensity Median,0.996,,Surface,4,,Image 1,1,37
+Intensity Median,0.996,,Surface,1,,Image 1,1,38
+Intensity Median,18,,Surface,2,,Image 1,1,38
+Intensity Median,5,,Surface,3,,Image 1,1,38
+Intensity Median,2.992,,Surface,4,,Image 1,1,38
+Intensity Median,0.996,,Surface,1,,Image 1,1,39
+Intensity Median,14.992,,Surface,2,,Image 1,1,39
+Intensity Median,3,,Surface,3,,Image 1,1,39
+Intensity Median,1.992,,Surface,4,,Image 1,1,39
+Intensity Median,1,,Surface,1,,Image 1,1,40
+Intensity Median,22.992,,Surface,2,,Image 1,1,40
+Intensity Median,6.012,,Surface,3,,Image 1,1,40
+Intensity Median,1.992,,Surface,4,,Image 1,1,40
+Intensity Median,0.9975,,Surface,1,,Image 1,1,41
+Intensity Median,16.992,,Surface,2,,Image 1,1,41
+Intensity Median,0.998,,Surface,3,,Image 1,1,41
+Intensity Median,0.004,,Surface,4,,Image 1,1,41
+Intensity Median,0.00025,,Surface,1,,Image 1,1,42
+Intensity Median,14.998,,Surface,2,,Image 1,1,42
+Intensity Median,0,,Surface,3,,Image 1,1,42
+Intensity Median,0,,Surface,4,,Image 1,1,42
+Intensity Min,0,,Surface,1,,Image 1,1,0
+Intensity Min,2,,Surface,2,,Image 1,1,0
+Intensity Min,0,,Surface,3,,Image 1,1,0
+Intensity Min,0,,Surface,4,,Image 1,1,0
+Intensity Min,0,,Surface,1,,Image 1,1,1
+Intensity Min,3,,Surface,2,,Image 1,1,1
+Intensity Min,0,,Surface,3,,Image 1,1,1
+Intensity Min,0,,Surface,4,,Image 1,1,1
+Intensity Min,0,,Surface,1,,Image 1,1,2
+Intensity Min,4,,Surface,2,,Image 1,1,2
+Intensity Min,0,,Surface,3,,Image 1,1,2
+Intensity Min,0,,Surface,4,,Image 1,1,2
+Intensity Min,0,,Surface,1,,Image 1,1,3
+Intensity Min,5,,Surface,2,,Image 1,1,3
+Intensity Min,0,,Surface,3,,Image 1,1,3
+Intensity Min,0,,Surface,4,,Image 1,1,3
+Intensity Min,0,,Surface,1,,Image 1,1,4
+Intensity Min,7,,Surface,2,,Image 1,1,4
+Intensity Min,0,,Surface,3,,Image 1,1,4
+Intensity Min,0,,Surface,4,,Image 1,1,4
+Intensity Min,0,,Surface,1,,Image 1,1,5
+Intensity Min,14,,Surface,2,,Image 1,1,5
+Intensity Min,2,,Surface,3,,Image 1,1,5
+Intensity Min,0,,Surface,4,,Image 1,1,5
+Intensity Min,0,,Surface,1,,Image 1,1,6
+Intensity Min,9,,Surface,2,,Image 1,1,6
+Intensity Min,0,,Surface,3,,Image 1,1,6
+Intensity Min,0,,Surface,4,,Image 1,1,6
+Intensity Min,0,,Surface,1,,Image 1,1,7
+Intensity Min,9,,Surface,2,,Image 1,1,7
+Intensity Min,0,,Surface,3,,Image 1,1,7
+Intensity Min,0,,Surface,4,,Image 1,1,7
+Intensity Min,0,,Surface,1,,Image 1,1,8
+Intensity Min,4,,Surface,2,,Image 1,1,8
+Intensity Min,0,,Surface,3,,Image 1,1,8
+Intensity Min,0,,Surface,4,,Image 1,1,8
+Intensity Min,1,,Surface,1,,Image 1,1,9
+Intensity Min,8,,Surface,2,,Image 1,1,9
+Intensity Min,0,,Surface,3,,Image 1,1,9
+Intensity Min,0,,Surface,4,,Image 1,1,9
+Intensity Min,0,,Surface,1,,Image 1,1,10
+Intensity Min,11,,Surface,2,,Image 1,1,10
+Intensity Min,2,,Surface,3,,Image 1,1,10
+Intensity Min,0,,Surface,4,,Image 1,1,10
+Intensity Min,1,,Surface,1,,Image 1,1,11
+Intensity Min,14,,Surface,2,,Image 1,1,11
+Intensity Min,4,,Surface,3,,Image 1,1,11
+Intensity Min,0,,Surface,4,,Image 1,1,11
+Intensity Min,0,,Surface,1,,Image 1,1,12
+Intensity Min,21,,Surface,2,,Image 1,1,12
+Intensity Min,10,,Surface,3,,Image 1,1,12
+Intensity Min,0,,Surface,4,,Image 1,1,12
+Intensity Min,3,,Surface,1,,Image 1,1,13
+Intensity Min,22,,Surface,2,,Image 1,1,13
+Intensity Min,6,,Surface,3,,Image 1,1,13
+Intensity Min,0,,Surface,4,,Image 1,1,13
+Intensity Min,0,,Surface,1,,Image 1,1,14
+Intensity Min,18,,Surface,2,,Image 1,1,14
+Intensity Min,0,,Surface,3,,Image 1,1,14
+Intensity Min,0,,Surface,4,,Image 1,1,14
+Intensity Min,0,,Surface,1,,Image 1,1,15
+Intensity Min,15,,Surface,2,,Image 1,1,15
+Intensity Min,1,,Surface,3,,Image 1,1,15
+Intensity Min,0,,Surface,4,,Image 1,1,15
+Intensity Min,0,,Surface,1,,Image 1,1,16
+Intensity Min,11,,Surface,2,,Image 1,1,16
+Intensity Min,0,,Surface,3,,Image 1,1,16
+Intensity Min,0,,Surface,4,,Image 1,1,16
+Intensity Min,0,,Surface,1,,Image 1,1,17
+Intensity Min,5,,Surface,2,,Image 1,1,17
+Intensity Min,0,,Surface,3,,Image 1,1,17
+Intensity Min,0,,Surface,4,,Image 1,1,17
+Intensity Min,0,,Surface,1,,Image 1,1,18
+Intensity Min,12,,Surface,2,,Image 1,1,18
+Intensity Min,0,,Surface,3,,Image 1,1,18
+Intensity Min,0,,Surface,4,,Image 1,1,18
+Intensity Min,0,,Surface,1,,Image 1,1,19
+Intensity Min,7,,Surface,2,,Image 1,1,19
+Intensity Min,0,,Surface,3,,Image 1,1,19
+Intensity Min,0,,Surface,4,,Image 1,1,19
+Intensity Min,0,,Surface,1,,Image 1,1,20
+Intensity Min,30,,Surface,2,,Image 1,1,20
+Intensity Min,0,,Surface,3,,Image 1,1,20
+Intensity Min,0,,Surface,4,,Image 1,1,20
+Intensity Min,0,,Surface,1,,Image 1,1,21
+Intensity Min,5,,Surface,2,,Image 1,1,21
+Intensity Min,0,,Surface,3,,Image 1,1,21
+Intensity Min,0,,Surface,4,,Image 1,1,21
+Intensity Min,0,,Surface,1,,Image 1,1,22
+Intensity Min,5,,Surface,2,,Image 1,1,22
+Intensity Min,0,,Surface,3,,Image 1,1,22
+Intensity Min,0,,Surface,4,,Image 1,1,22
+Intensity Min,0,,Surface,1,,Image 1,1,23
+Intensity Min,4,,Surface,2,,Image 1,1,23
+Intensity Min,0,,Surface,3,,Image 1,1,23
+Intensity Min,0,,Surface,4,,Image 1,1,23
+Intensity Min,0,,Surface,1,,Image 1,1,24
+Intensity Min,34,,Surface,2,,Image 1,1,24
+Intensity Min,8,,Surface,3,,Image 1,1,24
+Intensity Min,0,,Surface,4,,Image 1,1,24
+Intensity Min,0,,Surface,1,,Image 1,1,25
+Intensity Min,4,,Surface,2,,Image 1,1,25
+Intensity Min,0,,Surface,3,,Image 1,1,25
+Intensity Min,2,,Surface,4,,Image 1,1,25
+Intensity Min,0,,Surface,1,,Image 1,1,26
+Intensity Min,2,,Surface,2,,Image 1,1,26
+Intensity Min,0,,Surface,3,,Image 1,1,26
+Intensity Min,0,,Surface,4,,Image 1,1,26
+Intensity Min,1,,Surface,1,,Image 1,1,27
+Intensity Min,24,,Surface,2,,Image 1,1,27
+Intensity Min,8,,Surface,3,,Image 1,1,27
+Intensity Min,0,,Surface,4,,Image 1,1,27
+Intensity Min,0,,Surface,1,,Image 1,1,28
+Intensity Min,6,,Surface,2,,Image 1,1,28
+Intensity Min,0,,Surface,3,,Image 1,1,28
+Intensity Min,0,,Surface,4,,Image 1,1,28
+Intensity Min,1,,Surface,1,,Image 1,1,29
+Intensity Min,18,,Surface,2,,Image 1,1,29
+Intensity Min,4,,Surface,3,,Image 1,1,29
+Intensity Min,0,,Surface,4,,Image 1,1,29
+Intensity Min,0,,Surface,1,,Image 1,1,30
+Intensity Min,7,,Surface,2,,Image 1,1,30
+Intensity Min,0,,Surface,3,,Image 1,1,30
+Intensity Min,0,,Surface,4,,Image 1,1,30
+Intensity Min,0,,Surface,1,,Image 1,1,31
+Intensity Min,7,,Surface,2,,Image 1,1,31
+Intensity Min,0,,Surface,3,,Image 1,1,31
+Intensity Min,0,,Surface,4,,Image 1,1,31
+Intensity Min,1,,Surface,1,,Image 1,1,32
+Intensity Min,31,,Surface,2,,Image 1,1,32
+Intensity Min,0,,Surface,3,,Image 1,1,32
+Intensity Min,0,,Surface,4,,Image 1,1,32
+Intensity Min,0,,Surface,1,,Image 1,1,33
+Intensity Min,9,,Surface,2,,Image 1,1,33
+Intensity Min,0,,Surface,3,,Image 1,1,33
+Intensity Min,0,,Surface,4,,Image 1,1,33
+Intensity Min,0,,Surface,1,,Image 1,1,34
+Intensity Min,3,,Surface,2,,Image 1,1,34
+Intensity Min,0,,Surface,3,,Image 1,1,34
+Intensity Min,0,,Surface,4,,Image 1,1,34
+Intensity Min,2,,Surface,1,,Image 1,1,35
+Intensity Min,8,,Surface,2,,Image 1,1,35
+Intensity Min,1,,Surface,3,,Image 1,1,35
+Intensity Min,0,,Surface,4,,Image 1,1,35
+Intensity Min,0,,Surface,1,,Image 1,1,36
+Intensity Min,1,,Surface,2,,Image 1,1,36
+Intensity Min,0,,Surface,3,,Image 1,1,36
+Intensity Min,0,,Surface,4,,Image 1,1,36
+Intensity Min,0,,Surface,1,,Image 1,1,37
+Intensity Min,5,,Surface,2,,Image 1,1,37
+Intensity Min,0,,Surface,3,,Image 1,1,37
+Intensity Min,0,,Surface,4,,Image 1,1,37
+Intensity Min,0,,Surface,1,,Image 1,1,38
+Intensity Min,5,,Surface,2,,Image 1,1,38
+Intensity Min,0,,Surface,3,,Image 1,1,38
+Intensity Min,0,,Surface,4,,Image 1,1,38
+Intensity Min,0,,Surface,1,,Image 1,1,39
+Intensity Min,3,,Surface,2,,Image 1,1,39
+Intensity Min,0,,Surface,3,,Image 1,1,39
+Intensity Min,0,,Surface,4,,Image 1,1,39
+Intensity Min,0,,Surface,1,,Image 1,1,40
+Intensity Min,3,,Surface,2,,Image 1,1,40
+Intensity Min,0,,Surface,3,,Image 1,1,40
+Intensity Min,0,,Surface,4,,Image 1,1,40
+Intensity Min,0,,Surface,1,,Image 1,1,41
+Intensity Min,3,,Surface,2,,Image 1,1,41
+Intensity Min,0,,Surface,3,,Image 1,1,41
+Intensity Min,0,,Surface,4,,Image 1,1,41
+Intensity Min,0,,Surface,1,,Image 1,1,42
+Intensity Min,11,,Surface,2,,Image 1,1,42
+Intensity Min,0,,Surface,3,,Image 1,1,42
+Intensity Min,0,,Surface,4,,Image 1,1,42
+Intensity StdDev,0.90422,,Surface,1,,Image 1,1,0
+Intensity StdDev,5.44535,,Surface,2,,Image 1,1,0
+Intensity StdDev,0.71224,,Surface,3,,Image 1,1,0
+Intensity StdDev,2.24118,,Surface,4,,Image 1,1,0
+Intensity StdDev,0.849837,,Surface,1,,Image 1,1,1
+Intensity StdDev,0.372678,,Surface,2,,Image 1,1,1
+Intensity StdDev,0,,Surface,3,,Image 1,1,1
+Intensity StdDev,0,,Surface,4,,Image 1,1,1
+Intensity StdDev,0.899372,,Surface,1,,Image 1,1,2
+Intensity StdDev,3.5242,,Surface,2,,Image 1,1,2
+Intensity StdDev,1.04633,,Surface,3,,Image 1,1,2
+Intensity StdDev,2.42576,,Surface,4,,Image 1,1,2
+Intensity StdDev,0.276385,,Surface,1,,Image 1,1,3
+Intensity StdDev,1.53433,,Surface,2,,Image 1,1,3
+Intensity StdDev,0.816497,,Surface,3,,Image 1,1,3
+Intensity StdDev,0,,Surface,4,,Image 1,1,3
+Intensity StdDev,0.471405,,Surface,1,,Image 1,1,4
+Intensity StdDev,4.22259,,Surface,2,,Image 1,1,4
+Intensity StdDev,0,,Surface,3,,Image 1,1,4
+Intensity StdDev,0,,Surface,4,,Image 1,1,4
+Intensity StdDev,0.4,,Surface,1,,Image 1,1,5
+Intensity StdDev,0.4,,Surface,2,,Image 1,1,5
+Intensity StdDev,0.4,,Surface,3,,Image 1,1,5
+Intensity StdDev,0,,Surface,4,,Image 1,1,5
+Intensity StdDev,0,,Surface,1,,Image 1,1,6
+Intensity StdDev,1.61015,,Surface,2,,Image 1,1,6
+Intensity StdDev,1.26307,,Surface,3,,Image 1,1,6
+Intensity StdDev,0,,Surface,4,,Image 1,1,6
+Intensity StdDev,0,,Surface,1,,Image 1,1,7
+Intensity StdDev,1.03775,,Surface,2,,Image 1,1,7
+Intensity StdDev,0,,Surface,3,,Image 1,1,7
+Intensity StdDev,0,,Surface,4,,Image 1,1,7
+Intensity StdDev,1.04103,,Surface,1,,Image 1,1,8
+Intensity StdDev,2.49609,,Surface,2,,Image 1,1,8
+Intensity StdDev,0.432511,,Surface,3,,Image 1,1,8
+Intensity StdDev,0,,Surface,4,,Image 1,1,8
+Intensity StdDev,0.897527,,Surface,1,,Image 1,1,9
+Intensity StdDev,0.687184,,Surface,2,,Image 1,1,9
+Intensity StdDev,0,,Surface,3,,Image 1,1,9
+Intensity StdDev,0,,Surface,4,,Image 1,1,9
+Intensity StdDev,0.372678,,Surface,1,,Image 1,1,10
+Intensity StdDev,0.471405,,Surface,2,,Image 1,1,10
+Intensity StdDev,0,,Surface,3,,Image 1,1,10
+Intensity StdDev,0,,Surface,4,,Image 1,1,10
+Intensity StdDev,0,,Surface,1,,Image 1,1,11
+Intensity StdDev,1,,Surface,2,,Image 1,1,11
+Intensity StdDev,0.957427,,Surface,3,,Image 1,1,11
+Intensity StdDev,0,,Surface,4,,Image 1,1,11
+Intensity StdDev,0,,Surface,1,,Image 1,1,12
+Intensity StdDev,0,,Surface,2,,Image 1,1,12
+Intensity StdDev,0,,Surface,3,,Image 1,1,12
+Intensity StdDev,0,,Surface,4,,Image 1,1,12
+Intensity StdDev,1.97203,,Surface,1,,Image 1,1,13
+Intensity StdDev,1.5,,Surface,2,,Image 1,1,13
+Intensity StdDev,0.471405,,Surface,3,,Image 1,1,13
+Intensity StdDev,0,,Surface,4,,Image 1,1,13
+Intensity StdDev,0,,Surface,1,,Image 1,1,14
+Intensity StdDev,1.37437,,Surface,2,,Image 1,1,14
+Intensity StdDev,1.34371,,Surface,3,,Image 1,1,14
+Intensity StdDev,0,,Surface,4,,Image 1,1,14
+Intensity StdDev,0.372678,,Surface,1,,Image 1,1,15
+Intensity StdDev,3.10913,,Surface,2,,Image 1,1,15
+Intensity StdDev,0.897527,,Surface,3,,Image 1,1,15
+Intensity StdDev,0,,Surface,4,,Image 1,1,15
+Intensity StdDev,1.09233,,Surface,1,,Image 1,1,16
+Intensity StdDev,7.28916,,Surface,2,,Image 1,1,16
+Intensity StdDev,0.836626,,Surface,3,,Image 1,1,16
+Intensity StdDev,1.36674,,Surface,4,,Image 1,1,16
+Intensity StdDev,0.87104,,Surface,1,,Image 1,1,17
+Intensity StdDev,1.99638,,Surface,2,,Image 1,1,17
+Intensity StdDev,0.522976,,Surface,3,,Image 1,1,17
+Intensity StdDev,0.807591,,Surface,4,,Image 1,1,17
+Intensity StdDev,0.276385,,Surface,1,,Image 1,1,18
+Intensity StdDev,2.65329,,Surface,2,,Image 1,1,18
+Intensity StdDev,0.433013,,Surface,3,,Image 1,1,18
+Intensity StdDev,2.09787,,Surface,4,,Image 1,1,18
+Intensity StdDev,0.678429,,Surface,1,,Image 1,1,19
+Intensity StdDev,10.578,,Surface,2,,Image 1,1,19
+Intensity StdDev,1.69669,,Surface,3,,Image 1,1,19
+Intensity StdDev,3.11104,,Surface,4,,Image 1,1,19
+Intensity StdDev,0,,Surface,1,,Image 1,1,20
+Intensity StdDev,3.87814,,Surface,2,,Image 1,1,20
+Intensity StdDev,0.8,,Surface,3,,Image 1,1,20
+Intensity StdDev,0.8,,Surface,4,,Image 1,1,20
+Intensity StdDev,0,,Surface,1,,Image 1,1,21
+Intensity StdDev,1.02888,,Surface,2,,Image 1,1,21
+Intensity StdDev,0,,Surface,3,,Image 1,1,21
+Intensity StdDev,0,,Surface,4,,Image 1,1,21
+Intensity StdDev,0.802,,Surface,1,,Image 1,1,22
+Intensity StdDev,4.20383,,Surface,2,,Image 1,1,22
+Intensity StdDev,1.18861,,Surface,3,,Image 1,1,22
+Intensity StdDev,4.50774,,Surface,4,,Image 1,1,22
+Intensity StdDev,0.73841,,Surface,1,,Image 1,1,23
+Intensity StdDev,5.05561,,Surface,2,,Image 1,1,23
+Intensity StdDev,1.73188,,Surface,3,,Image 1,1,23
+Intensity StdDev,3.75972,,Surface,4,,Image 1,1,23
+Intensity StdDev,0.458258,,Surface,1,,Image 1,1,24
+Intensity StdDev,3.6,,Surface,2,,Image 1,1,24
+Intensity StdDev,2.32594,,Surface,3,,Image 1,1,24
+Intensity StdDev,0.3,,Surface,4,,Image 1,1,24
+Intensity StdDev,1.81621,,Surface,1,,Image 1,1,25
+Intensity StdDev,2.18934,,Surface,2,,Image 1,1,25
+Intensity StdDev,0.810331,,Surface,3,,Image 1,1,25
+Intensity StdDev,0.515201,,Surface,4,,Image 1,1,25
+Intensity StdDev,2.03479,,Surface,1,,Image 1,1,26
+Intensity StdDev,2.45263,,Surface,2,,Image 1,1,26
+Intensity StdDev,1.04396,,Surface,3,,Image 1,1,26
+Intensity StdDev,0,,Surface,4,,Image 1,1,26
+Intensity StdDev,1,,Surface,1,,Image 1,1,27
+Intensity StdDev,3.5,,Surface,2,,Image 1,1,27
+Intensity StdDev,1.63299,,Surface,3,,Image 1,1,27
+Intensity StdDev,0,,Surface,4,,Image 1,1,27
+Intensity StdDev,1.14856,,Surface,1,,Image 1,1,28
+Intensity StdDev,5.51541,,Surface,2,,Image 1,1,28
+Intensity StdDev,1.27444,,Surface,3,,Image 1,1,28
+Intensity StdDev,3.19652,,Surface,4,,Image 1,1,28
+Intensity StdDev,0.897527,,Surface,1,,Image 1,1,29
+Intensity StdDev,1.69967,,Surface,2,,Image 1,1,29
+Intensity StdDev,2.21108,,Surface,3,,Image 1,1,29
+Intensity StdDev,0,,Surface,4,,Image 1,1,29
+Intensity StdDev,1.77764,,Surface,1,,Image 1,1,30
+Intensity StdDev,2.59615,,Surface,2,,Image 1,1,30
+Intensity StdDev,1.19478,,Surface,3,,Image 1,1,30
+Intensity StdDev,0,,Surface,4,,Image 1,1,30
+Intensity StdDev,0.498519,,Surface,1,,Image 1,1,31
+Intensity StdDev,1.54613,,Surface,2,,Image 1,1,31
+Intensity StdDev,0.624926,,Surface,3,,Image 1,1,31
+Intensity StdDev,1.58581,,Surface,4,,Image 1,1,31
+Intensity StdDev,1.26861,,Surface,1,,Image 1,1,32
+Intensity StdDev,1.17094,,Surface,2,,Image 1,1,32
+Intensity StdDev,0.927025,,Surface,3,,Image 1,1,32
+Intensity StdDev,0.242061,,Surface,4,,Image 1,1,32
+Intensity StdDev,1.1947,,Surface,1,,Image 1,1,33
+Intensity StdDev,6.85355,,Surface,2,,Image 1,1,33
+Intensity StdDev,1.44833,,Surface,3,,Image 1,1,33
+Intensity StdDev,0.689704,,Surface,4,,Image 1,1,33
+Intensity StdDev,0.983939,,Surface,1,,Image 1,1,34
+Intensity StdDev,2.35849,,Surface,2,,Image 1,1,34
+Intensity StdDev,0.816588,,Surface,3,,Image 1,1,34
+Intensity StdDev,4.62955,,Surface,4,,Image 1,1,34
+Intensity StdDev,0.471405,,Surface,1,,Image 1,1,35
+Intensity StdDev,0.816497,,Surface,2,,Image 1,1,35
+Intensity StdDev,0.471405,,Surface,3,,Image 1,1,35
+Intensity StdDev,0,,Surface,4,,Image 1,1,35
+Intensity StdDev,1.812,,Surface,1,,Image 1,1,36
+Intensity StdDev,3.46674,,Surface,2,,Image 1,1,36
+Intensity StdDev,1.17655,,Surface,3,,Image 1,1,36
+Intensity StdDev,3.8646,,Surface,4,,Image 1,1,36
+Intensity StdDev,1.54603,,Surface,1,,Image 1,1,37
+Intensity StdDev,5.16271,,Surface,2,,Image 1,1,37
+Intensity StdDev,3.04017,,Surface,3,,Image 1,1,37
+Intensity StdDev,2.73916,,Surface,4,,Image 1,1,37
+Intensity StdDev,1.26147,,Surface,1,,Image 1,1,38
+Intensity StdDev,6.36778,,Surface,2,,Image 1,1,38
+Intensity StdDev,3.46941,,Surface,3,,Image 1,1,38
+Intensity StdDev,4.34442,,Surface,4,,Image 1,1,38
+Intensity StdDev,1.46668,,Surface,1,,Image 1,1,39
+Intensity StdDev,7.88385,,Surface,2,,Image 1,1,39
+Intensity StdDev,3.61506,,Surface,3,,Image 1,1,39
+Intensity StdDev,4.16053,,Surface,4,,Image 1,1,39
+Intensity StdDev,1.74632,,Surface,1,,Image 1,1,40
+Intensity StdDev,10.8778,,Surface,2,,Image 1,1,40
+Intensity StdDev,3.56327,,Surface,3,,Image 1,1,40
+Intensity StdDev,3.97947,,Surface,4,,Image 1,1,40
+Intensity StdDev,1.81284,,Surface,1,,Image 1,1,41
+Intensity StdDev,10.1552,,Surface,2,,Image 1,1,41
+Intensity StdDev,1.93967,,Surface,3,,Image 1,1,41
+Intensity StdDev,2.5045,,Surface,4,,Image 1,1,41
+Intensity StdDev,0.229061,,Surface,1,,Image 1,1,42
+Intensity StdDev,2.3485,,Surface,2,,Image 1,1,42
+Intensity StdDev,0,,Surface,3,,Image 1,1,42
+Intensity StdDev,0,,Surface,4,,Image 1,1,42
+Intensity Sum,278,,Surface,1,,Image 1,1,0
+Intensity Sum,4592,,Surface,2,,Image 1,1,0
+Intensity Sum,167,,Surface,3,,Image 1,1,0
+Intensity Sum,971,,Surface,4,,Image 1,1,0
+Intensity Sum,16,,Surface,1,,Image 1,1,1
+Intensity Sum,46,,Surface,2,,Image 1,1,1
+Intensity Sum,0,,Surface,3,,Image 1,1,1
+Intensity Sum,0,,Surface,4,,Image 1,1,1
+Intensity Sum,143,,Surface,1,,Image 1,1,2
+Intensity Sum,3135,,Surface,2,,Image 1,1,2
+Intensity Sum,148,,Surface,3,,Image 1,1,2
+Intensity Sum,516,,Surface,4,,Image 1,1,2
+Intensity Sum,11,,Surface,1,,Image 1,1,3
+Intensity Sum,93,,Surface,2,,Image 1,1,3
+Intensity Sum,12,,Surface,3,,Image 1,1,3
+Intensity Sum,0,,Surface,4,,Image 1,1,3
+Intensity Sum,6,,Surface,1,,Image 1,1,4
+Intensity Sum,253,,Surface,2,,Image 1,1,4
+Intensity Sum,0,,Surface,3,,Image 1,1,4
+Intensity Sum,0,,Surface,4,,Image 1,1,4
+Intensity Sum,4,,Surface,1,,Image 1,1,5
+Intensity Sum,74,,Surface,2,,Image 1,1,5
+Intensity Sum,14,,Surface,3,,Image 1,1,5
+Intensity Sum,0,,Surface,4,,Image 1,1,5
+Intensity Sum,0,,Surface,1,,Image 1,1,6
+Intensity Sum,630,,Surface,2,,Image 1,1,6
+Intensity Sum,44,,Surface,3,,Image 1,1,6
+Intensity Sum,0,,Surface,4,,Image 1,1,6
+Intensity Sum,0,,Surface,1,,Image 1,1,7
+Intensity Sum,130,,Surface,2,,Image 1,1,7
+Intensity Sum,0,,Surface,3,,Image 1,1,7
+Intensity Sum,0,,Surface,4,,Image 1,1,7
+Intensity Sum,135,,Surface,1,,Image 1,1,8
+Intensity Sum,1513,,Surface,2,,Image 1,1,8
+Intensity Sum,28,,Surface,3,,Image 1,1,8
+Intensity Sum,0,,Surface,4,,Image 1,1,8
+Intensity Sum,13,,Surface,1,,Image 1,1,9
+Intensity Sum,55,,Surface,2,,Image 1,1,9
+Intensity Sum,0,,Surface,3,,Image 1,1,9
+Intensity Sum,0,,Surface,4,,Image 1,1,9
+Intensity Sum,5,,Surface,1,,Image 1,1,10
+Intensity Sum,70,,Surface,2,,Image 1,1,10
+Intensity Sum,12,,Surface,3,,Image 1,1,10
+Intensity Sum,0,,Surface,4,,Image 1,1,10
+Intensity Sum,6,,Surface,1,,Image 1,1,11
+Intensity Sum,96,,Surface,2,,Image 1,1,11
+Intensity Sum,33,,Surface,3,,Image 1,1,11
+Intensity Sum,0,,Surface,4,,Image 1,1,11
+Intensity Sum,0,,Surface,1,,Image 1,1,12
+Intensity Sum,21,,Surface,2,,Image 1,1,12
+Intensity Sum,10,,Surface,3,,Image 1,1,12
+Intensity Sum,0,,Surface,4,,Image 1,1,12
+Intensity Sum,34,,Surface,1,,Image 1,1,13
+Intensity Sum,147,,Surface,2,,Image 1,1,13
+Intensity Sum,40,,Surface,3,,Image 1,1,13
+Intensity Sum,0,,Surface,4,,Image 1,1,13
+Intensity Sum,0,,Surface,1,,Image 1,1,14
+Intensity Sum,122,,Surface,2,,Image 1,1,14
+Intensity Sum,11,,Surface,3,,Image 1,1,14
+Intensity Sum,0,,Surface,4,,Image 1,1,14
+Intensity Sum,5,,Surface,1,,Image 1,1,15
+Intensity Sum,114,,Surface,2,,Image 1,1,15
+Intensity Sum,13,,Surface,3,,Image 1,1,15
+Intensity Sum,0,,Surface,4,,Image 1,1,15
+Intensity Sum,224,,Surface,1,,Image 1,1,16
+Intensity Sum,8795,,Surface,2,,Image 1,1,16
+Intensity Sum,154,,Surface,3,,Image 1,1,16
+Intensity Sum,288,,Surface,4,,Image 1,1,16
+Intensity Sum,17,,Surface,1,,Image 1,1,17
+Intensity Sum,374,,Surface,2,,Image 1,1,17
+Intensity Sum,13,,Surface,3,,Image 1,1,17
+Intensity Sum,23,,Surface,4,,Image 1,1,17
+Intensity Sum,2,,Surface,1,,Image 1,1,18
+Intensity Sum,407,,Surface,2,,Image 1,1,18
+Intensity Sum,6,,Surface,3,,Image 1,1,18
+Intensity Sum,87,,Surface,4,,Image 1,1,18
+Intensity Sum,224,,Surface,1,,Image 1,1,19
+Intensity Sum,9718,,Surface,2,,Image 1,1,19
+Intensity Sum,354,,Surface,3,,Image 1,1,19
+Intensity Sum,607,,Surface,4,,Image 1,1,19
+Intensity Sum,0,,Surface,1,,Image 1,1,20
+Intensity Sum,346,,Surface,2,,Image 1,1,20
+Intensity Sum,6,,Surface,3,,Image 1,1,20
+Intensity Sum,6,,Surface,4,,Image 1,1,20
+Intensity Sum,0,,Surface,1,,Image 1,1,21
+Intensity Sum,97,,Surface,2,,Image 1,1,21
+Intensity Sum,0,,Surface,3,,Image 1,1,21
+Intensity Sum,0,,Surface,4,,Image 1,1,21
+Intensity Sum,479,,Surface,1,,Image 1,1,22
+Intensity Sum,9333,,Surface,2,,Image 1,1,22
+Intensity Sum,410,,Surface,3,,Image 1,1,22
+Intensity Sum,1539,,Surface,4,,Image 1,1,22
+Intensity Sum,474,,Surface,1,,Image 1,1,23
+Intensity Sum,18115,,Surface,2,,Image 1,1,23
+Intensity Sum,1946,,Surface,3,,Image 1,1,23
+Intensity Sum,3923,,Surface,4,,Image 1,1,23
+Intensity Sum,7,,Surface,1,,Image 1,1,24
+Intensity Sum,412,,Surface,2,,Image 1,1,24
+Intensity Sum,127,,Surface,3,,Image 1,1,24
+Intensity Sum,1,,Surface,4,,Image 1,1,24
+Intensity Sum,69,,Surface,1,,Image 1,1,25
+Intensity Sum,266,,Surface,2,,Image 1,1,25
+Intensity Sum,29,,Surface,3,,Image 1,1,25
+Intensity Sum,112,,Surface,4,,Image 1,1,25
+Intensity Sum,127,,Surface,1,,Image 1,1,26
+Intensity Sum,383,,Surface,2,,Image 1,1,26
+Intensity Sum,60,,Surface,3,,Image 1,1,26
+Intensity Sum,0,,Surface,4,,Image 1,1,26
+Intensity Sum,12,,Surface,1,,Image 1,1,27
+Intensity Sum,177,,Surface,2,,Image 1,1,27
+Intensity Sum,60,,Surface,3,,Image 1,1,27
+Intensity Sum,0,,Surface,4,,Image 1,1,27
+Intensity Sum,497,,Surface,1,,Image 1,1,28
+Intensity Sum,8676,,Surface,2,,Image 1,1,28
+Intensity Sum,330,,Surface,3,,Image 1,1,28
+Intensity Sum,1002,,Surface,4,,Image 1,1,28
+Intensity Sum,11,,Surface,1,,Image 1,1,29
+Intensity Sum,122,,Surface,2,,Image 1,1,29
+Intensity Sum,40,,Surface,3,,Image 1,1,29
+Intensity Sum,0,,Surface,4,,Image 1,1,29
+Intensity Sum,56,,Surface,1,,Image 1,1,30
+Intensity Sum,232,,Surface,2,,Image 1,1,30
+Intensity Sum,33,,Surface,3,,Image 1,1,30
+Intensity Sum,0,,Surface,4,,Image 1,1,30
+Intensity Sum,14,,Surface,1,,Image 1,1,31
+Intensity Sum,270,,Surface,2,,Image 1,1,31
+Intensity Sum,10,,Surface,3,,Image 1,1,31
+Intensity Sum,82,,Surface,4,,Image 1,1,31
+Intensity Sum,42,,Surface,1,,Image 1,1,32
+Intensity Sum,535,,Surface,2,,Image 1,1,32
+Intensity Sum,18,,Surface,3,,Image 1,1,32
+Intensity Sum,1,,Surface,4,,Image 1,1,32
+Intensity Sum,351,,Surface,1,,Image 1,1,33
+Intensity Sum,6280,,Surface,2,,Image 1,1,33
+Intensity Sum,452,,Surface,3,,Image 1,1,33
+Intensity Sum,109,,Surface,4,,Image 1,1,33
+Intensity Sum,265,,Surface,1,,Image 1,1,34
+Intensity Sum,5449,,Surface,2,,Image 1,1,34
+Intensity Sum,247,,Surface,3,,Image 1,1,34
+Intensity Sum,2136,,Surface,4,,Image 1,1,34
+Intensity Sum,14,,Surface,1,,Image 1,1,35
+Intensity Sum,54,,Surface,2,,Image 1,1,35
+Intensity Sum,8,,Surface,3,,Image 1,1,35
+Intensity Sum,0,,Surface,4,,Image 1,1,35
+Intensity Sum,2041,,Surface,1,,Image 1,1,36
+Intensity Sum,12252,,Surface,2,,Image 1,1,36
+Intensity Sum,1342,,Surface,3,,Image 1,1,36
+Intensity Sum,2854,,Surface,4,,Image 1,1,36
+Intensity Sum,1677,,Surface,1,,Image 1,1,37
+Intensity Sum,19623,,Surface,2,,Image 1,1,37
+Intensity Sum,4309,,Surface,3,,Image 1,1,37
+Intensity Sum,2625,,Surface,4,,Image 1,1,37
+Intensity Sum,2170,,Surface,1,,Image 1,1,38
+Intensity Sum,41710,,Surface,2,,Image 1,1,38
+Intensity Sum,13577,,Surface,3,,Image 1,1,38
+Intensity Sum,9728,,Surface,4,,Image 1,1,38
+Intensity Sum,2550,,Surface,1,,Image 1,1,39
+Intensity Sum,37522,,Surface,2,,Image 1,1,39
+Intensity Sum,7925,,Surface,3,,Image 1,1,39
+Intensity Sum,8085,,Surface,4,,Image 1,1,39
+Intensity Sum,9131,,Surface,1,,Image 1,1,40
+Intensity Sum,160808,,Surface,2,,Image 1,1,40
+Intensity Sum,41257,,Surface,3,,Image 1,1,40
+Intensity Sum,22760,,Surface,4,,Image 1,1,40
+Intensity Sum,1132,,Surface,1,,Image 1,1,41
+Intensity Sum,19817,,Surface,2,,Image 1,1,41
+Intensity Sum,2012,,Surface,3,,Image 1,1,41
+Intensity Sum,1442,,Surface,4,,Image 1,1,41
+Intensity Sum,2,,Surface,1,,Image 1,1,42
+Intensity Sum,518,,Surface,2,,Image 1,1,42
+Intensity Sum,0,,Surface,3,,Image 1,1,42
+Intensity Sum,0,,Surface,4,,Image 1,1,42
+Number of Disconnected Components,1,,Surface,,,,1,0
+Number of Disconnected Components,1,,Surface,,,,1,1
+Number of Disconnected Components,1,,Surface,,,,1,2
+Number of Disconnected Components,1,,Surface,,,,1,3
+Number of Disconnected Components,1,,Surface,,,,1,4
+Number of Disconnected Components,1,,Surface,,,,1,5
+Number of Disconnected Components,1,,Surface,,,,1,6
+Number of Disconnected Components,1,,Surface,,,,1,7
+Number of Disconnected Components,1,,Surface,,,,1,8
+Number of Disconnected Components,1,,Surface,,,,1,9
+Number of Disconnected Components,1,,Surface,,,,1,10
+Number of Disconnected Components,1,,Surface,,,,1,11
+Number of Disconnected Components,1,,Surface,,,,1,12
+Number of Disconnected Components,1,,Surface,,,,1,13
+Number of Disconnected Components,1,,Surface,,,,1,14
+Number of Disconnected Components,1,,Surface,,,,1,15
+Number of Disconnected Components,1,,Surface,,,,1,16
+Number of Disconnected Components,1,,Surface,,,,1,17
+Number of Disconnected Components,1,,Surface,,,,1,18
+Number of Disconnected Components,1,,Surface,,,,1,19
+Number of Disconnected Components,1,,Surface,,,,1,20
+Number of Disconnected Components,1,,Surface,,,,1,21
+Number of Disconnected Components,1,,Surface,,,,1,22
+Number of Disconnected Components,1,,Surface,,,,1,23
+Number of Disconnected Components,1,,Surface,,,,1,24
+Number of Disconnected Components,1,,Surface,,,,1,25
+Number of Disconnected Components,1,,Surface,,,,1,26
+Number of Disconnected Components,1,,Surface,,,,1,27
+Number of Disconnected Components,1,,Surface,,,,1,28
+Number of Disconnected Components,1,,Surface,,,,1,29
+Number of Disconnected Components,1,,Surface,,,,1,30
+Number of Disconnected Components,1,,Surface,,,,1,31
+Number of Disconnected Components,1,,Surface,,,,1,32
+Number of Disconnected Components,1,,Surface,,,,1,33
+Number of Disconnected Components,1,,Surface,,,,1,34
+Number of Disconnected Components,1,,Surface,,,,1,35
+Number of Disconnected Components,1,,Surface,,,,1,36
+Number of Disconnected Components,1,,Surface,,,,1,37
+Number of Disconnected Components,1,,Surface,,,,1,38
+Number of Disconnected Components,1,,Surface,,,,1,39
+Number of Disconnected Components,1,,Surface,,,,1,40
+Number of Disconnected Components,1,,Surface,,,,1,41
+Number of Disconnected Components,1,,Surface,,,,1,42
+Position X,114.435,um,Surface,,Position,,1,0
+Position X,121.8,um,Surface,,Position,,1,1
+Position X,120.796,um,Surface,,Position,,1,2
+Position X,114.6,um,Surface,,Position,,1,3
+Position X,121.783,um,Surface,,Position,,1,4
+Position X,104.785,um,Surface,,Position,,1,5
+Position X,101.976,um,Surface,,Position,,1,6
+Position X,101.825,um,Surface,,Position,,1,7
+Position X,108.913,um,Surface,,Position,,1,8
+Position X,104.8,um,Surface,,Position,,1,9
+Position X,105.1,um,Surface,,Position,,1,10
+Position X,104.6,um,Surface,,Position,,1,11
+Position X,105.025,um,Surface,,Position,,1,12
+Position X,105.8,um,Surface,,Position,,1,13
+Position X,103.7,um,Surface,,Position,,1,14
+Position X,103.9,um,Surface,,Position,,1,15
+Position X,107.306,um,Surface,,Position,,1,16
+Position X,107.334,um,Surface,,Position,,1,17
+Position X,107.475,um,Surface,,Position,,1,18
+Position X,106.136,um,Surface,,Position,,1,19
+Position X,106.35,um,Surface,,Position,,1,20
+Position X,105.025,um,Surface,,Position,,1,21
+Position X,105.706,um,Surface,,Position,,1,22
+Position X,104.691,um,Surface,,Position,,1,23
+Position X,105.005,um,Surface,,Position,,1,24
+Position X,103.593,um,Surface,,Position,,1,25
+Position X,103.71,um,Surface,,Position,,1,26
+Position X,103.5,um,Surface,,Position,,1,27
+Position X,104.17,um,Surface,,Position,,1,28
+Position X,105.8,um,Surface,,Position,,1,29
+Position X,103.705,um,Surface,,Position,,1,30
+Position X,105.104,um,Surface,,Position,,1,31
+Position X,106.35,um,Surface,,Position,,1,32
+Position X,106.279,um,Surface,,Position,,1,33
+Position X,106.336,um,Surface,,Position,,1,34
+Position X,106.9,um,Surface,,Position,,1,35
+Position X,107.732,um,Surface,,Position,,1,36
+Position X,105.55,um,Surface,,Position,,1,37
+Position X,105.161,um,Surface,,Position,,1,38
+Position X,104.258,um,Surface,,Position,,1,39
+Position X,104.161,um,Surface,,Position,,1,40
+Position X,104.88,um,Surface,,Position,,1,41
+Position X,127.567,um,Surface,,Position,,1,42
+Position Y,49.3543,um,Surface,,Position,,1,0
+Position Y,71.925,um,Surface,,Position,,1,1
+Position Y,79.3258,um,Surface,,Position,,1,2
+Position Y,48.875,um,Surface,,Position,,1,3
+Position Y,72.475,um,Surface,,Position,,1,4
+Position Y,39.895,um,Surface,,Position,,1,5
+Position Y,34.9074,um,Surface,,Position,,1,6
+Position Y,34.6981,um,Surface,,Position,,1,7
+Position Y,56.2286,um,Surface,,Position,,1,8
+Position Y,45.875,um,Surface,,Position,,1,9
+Position Y,46.275,um,Surface,,Position,,1,10
+Position Y,41.025,um,Surface,,Position,,1,11
+Position Y,40.075,um,Surface,,Position,,1,12
+Position Y,34.825,um,Surface,,Position,,1,13
+Position Y,35.025,um,Surface,,Position,,1,14
+Position Y,35.225,um,Surface,,Position,,1,15
+Position Y,52.4618,um,Surface,,Position,,1,16
+Position Y,50.5609,um,Surface,,Position,,1,17
+Position Y,50.35,um,Surface,,Position,,1,18
+Position Y,49.5986,um,Surface,,Position,,1,19
+Position Y,48.295,um,Surface,,Position,,1,20
+Position Y,45.95,um,Surface,,Position,,1,21
+Position Y,46.6959,um,Surface,,Position,,1,22
+Position Y,46.2931,um,Surface,,Position,,1,23
+Position Y,39.905,um,Surface,,Position,,1,24
+Position Y,43.7556,um,Surface,,Position,,1,25
+Position Y,43.3742,um,Surface,,Position,,1,26
+Position Y,39.875,um,Surface,,Position,,1,27
+Position Y,43.0148,um,Surface,,Position,,1,28
+Position Y,34.825,um,Surface,,Position,,1,29
+Position Y,34.785,um,Surface,,Position,,1,30
+Position Y,33.5058,um,Surface,,Position,,1,31
+Position Y,48.15,um,Surface,,Position,,1,32
+Position Y,48.9351,um,Surface,,Position,,1,33
+Position Y,44.7491,um,Surface,,Position,,1,34
+Position Y,33.075,um,Surface,,Position,,1,35
+Position Y,33.1159,um,Surface,,Position,,1,36
+Position Y,36.0636,um,Surface,,Position,,1,37
+Position Y,34.6475,um,Surface,,Position,,1,38
+Position Y,34.6812,um,Surface,,Position,,1,39
+Position Y,40.5581,um,Surface,,Position,,1,40
+Position Y,40.7956,um,Surface,,Position,,1,41
+Position Y,23.3583,um,Surface,,Position,,1,42
+Position Z,13.967,um,Surface,,Position,,1,0
+Position Z,13.125,um,Surface,,Position,,1,1
+Position Z,13.7631,um,Surface,,Position,,1,2
+Position Z,14.475,um,Surface,,Position,,1,3
+Position Z,13.025,um,Surface,,Position,,1,4
+Position Z,11.525,um,Surface,,Position,,1,5
+Position Z,11.775,um,Surface,,Position,,1,6
+Position Z,11.5635,um,Surface,,Position,,1,7
+Position Z,11.2474,um,Surface,,Position,,1,8
+Position Z,11.025,um,Surface,,Position,,1,9
+Position Z,10.875,um,Surface,,Position,,1,10
+Position Z,11.175,um,Surface,,Position,,1,11
+Position Z,10.775,um,Surface,,Position,,1,12
+Position Z,10.875,um,Surface,,Position,,1,13
+Position Z,11.025,um,Surface,,Position,,1,14
+Position Z,10.725,um,Surface,,Position,,1,15
+Position Z,10.8357,um,Surface,,Position,,1,16
+Position Z,10.6481,um,Surface,,Position,,1,17
+Position Z,10.65,um,Surface,,Position,,1,18
+Position Z,10.3419,um,Surface,,Position,,1,19
+Position Z,9.875,um,Surface,,Position,,1,20
+Position Z,10.425,um,Surface,,Position,,1,21
+Position Z,10.5029,um,Surface,,Position,,1,22
+Position Z,10.606,um,Surface,,Position,,1,23
+Position Z,10.595,um,Surface,,Position,,1,24
+Position Z,10.3708,um,Surface,,Position,,1,25
+Position Z,10.1797,um,Surface,,Position,,1,26
+Position Z,10.125,um,Surface,,Position,,1,27
+Position Z,10.273,um,Surface,,Position,,1,28
+Position Z,10.125,um,Surface,,Position,,1,29
+Position Z,10.625,um,Surface,,Position,,1,30
+Position Z,10.2327,um,Surface,,Position,,1,31
+Position Z,9.725,um,Surface,,Position,,1,32
+Position Z,9.70166,um,Surface,,Position,,1,33
+Position Z,10.1163,um,Surface,,Position,,1,34
+Position Z,9.675,um,Surface,,Position,,1,35
+Position Z,9.98033,um,Surface,,Position,,1,36
+Position Z,10.6698,um,Surface,,Position,,1,37
+Position Z,10.57,um,Surface,,Position,,1,38
+Position Z,10.7651,um,Surface,,Position,,1,39
+Position Z,10.7322,um,Surface,,Position,,1,40
+Position Z,8.0899,um,Surface,,Position,,1,41
+Position Z,6.6,um,Surface,,Position,,1,42
+Sphericity,0.295698,,Surface,,,,1,0
+Sphericity,0.715632,,Surface,,,,1,1
+Sphericity,0.347215,,Surface,,,,1,2
+Sphericity,0.715632,,Surface,,,,1,3
+Sphericity,0.630292,,Surface,,,,1,4
+Sphericity,0.763438,,Surface,,,,1,5
+Sphericity,0.508346,,Surface,,,,1,6
+Sphericity,0.591652,,Surface,,,,1,7
+Sphericity,0.391078,,Surface,,,,1,8
+Sphericity,0.797248,,Surface,,,,1,9
+Sphericity,0.797257,,Surface,,,,1,10
+Sphericity,0.797258,,Surface,,,,1,11
+Sphericity,0.822654,,Surface,,,,1,12
+Sphericity,0.797257,,Surface,,,,1,13
+Sphericity,0.797249,,Surface,,,,1,14
+Sphericity,0.797245,,Surface,,,,1,15
+Sphericity,0.31822,,Surface,,,,1,16
+Sphericity,0.606109,,Surface,,,,1,17
+Sphericity,0.613701,,Surface,,,,1,18
+Sphericity,0.326749,,Surface,,,,1,19
+Sphericity,0.63723,,Surface,,,,1,20
+Sphericity,0.657185,,Surface,,,,1,21
+Sphericity,0.270724,,Surface,,,,1,22
+Sphericity,0.218546,,Surface,,,,1,23
+Sphericity,0.695187,,Surface,,,,1,24
+Sphericity,0.622835,,Surface,,,,1,25
+Sphericity,0.532741,,Surface,,,,1,26
+Sphericity,0.797244,,Surface,,,,1,27
+Sphericity,0.284352,,Surface,,,,1,28
+Sphericity,0.797257,,Surface,,,,1,29
+Sphericity,0.679288,,Surface,,,,1,30
+Sphericity,0.603106,,Surface,,,,1,31
+Sphericity,0.677319,,Surface,,,,1,32
+Sphericity,0.356491,,Surface,,,,1,33
+Sphericity,0.263227,,Surface,,,,1,34
+Sphericity,0.797254,,Surface,,,,1,35
+Sphericity,0.203905,,Surface,,,,1,36
+Sphericity,0.218452,,Surface,,,,1,37
+Sphericity,0.189599,,Surface,,,,1,38
+Sphericity,0.188729,,Surface,,,,1,39
+Sphericity,0.133619,,Surface,,,,1,40
+Sphericity,0.240517,,Surface,,,,1,41
+Sphericity,0.618139,,Surface,,,,1,42
+Time,0,s,Surface,,,,1,0
+Time,0,s,Surface,,,,1,1
+Time,0,s,Surface,,,,1,2
+Time,0,s,Surface,,,,1,3
+Time,0,s,Surface,,,,1,4
+Time,0,s,Surface,,,,1,5
+Time,0,s,Surface,,,,1,6
+Time,0,s,Surface,,,,1,7
+Time,0,s,Surface,,,,1,8
+Time,0,s,Surface,,,,1,9
+Time,0,s,Surface,,,,1,10
+Time,0,s,Surface,,,,1,11
+Time,0,s,Surface,,,,1,12
+Time,0,s,Surface,,,,1,13
+Time,0,s,Surface,,,,1,14
+Time,0,s,Surface,,,,1,15
+Time,0,s,Surface,,,,1,16
+Time,0,s,Surface,,,,1,17
+Time,0,s,Surface,,,,1,18
+Time,0,s,Surface,,,,1,19
+Time,0,s,Surface,,,,1,20
+Time,0,s,Surface,,,,1,21
+Time,0,s,Surface,,,,1,22
+Time,0,s,Surface,,,,1,23
+Time,0,s,Surface,,,,1,24
+Time,0,s,Surface,,,,1,25
+Time,0,s,Surface,,,,1,26
+Time,0,s,Surface,,,,1,27
+Time,0,s,Surface,,,,1,28
+Time,0,s,Surface,,,,1,29
+Time,0,s,Surface,,,,1,30
+Time,0,s,Surface,,,,1,31
+Time,0,s,Surface,,,,1,32
+Time,0,s,Surface,,,,1,33
+Time,0,s,Surface,,,,1,34
+Time,0,s,Surface,,,,1,35
+Time,0,s,Surface,,,,1,36
+Time,0,s,Surface,,,,1,37
+Time,0,s,Surface,,,,1,38
+Time,0,s,Surface,,,,1,39
+Time,0,s,Surface,,,,1,40
+Time,0,s,Surface,,,,1,41
+Time,0,s,Surface,,,,1,42
+Time Index,1,,Surface,,,,1,0
+Time Index,1,,Surface,,,,1,1
+Time Index,1,,Surface,,,,1,2
+Time Index,1,,Surface,,,,1,3
+Time Index,1,,Surface,,,,1,4
+Time Index,1,,Surface,,,,1,5
+Time Index,1,,Surface,,,,1,6
+Time Index,1,,Surface,,,,1,7
+Time Index,1,,Surface,,,,1,8
+Time Index,1,,Surface,,,,1,9
+Time Index,1,,Surface,,,,1,10
+Time Index,1,,Surface,,,,1,11
+Time Index,1,,Surface,,,,1,12
+Time Index,1,,Surface,,,,1,13
+Time Index,1,,Surface,,,,1,14
+Time Index,1,,Surface,,,,1,15
+Time Index,1,,Surface,,,,1,16
+Time Index,1,,Surface,,,,1,17
+Time Index,1,,Surface,,,,1,18
+Time Index,1,,Surface,,,,1,19
+Time Index,1,,Surface,,,,1,20
+Time Index,1,,Surface,,,,1,21
+Time Index,1,,Surface,,,,1,22
+Time Index,1,,Surface,,,,1,23
+Time Index,1,,Surface,,,,1,24
+Time Index,1,,Surface,,,,1,25
+Time Index,1,,Surface,,,,1,26
+Time Index,1,,Surface,,,,1,27
+Time Index,1,,Surface,,,,1,28
+Time Index,1,,Surface,,,,1,29
+Time Index,1,,Surface,,,,1,30
+Time Index,1,,Surface,,,,1,31
+Time Index,1,,Surface,,,,1,32
+Time Index,1,,Surface,,,,1,33
+Time Index,1,,Surface,,,,1,34
+Time Index,1,,Surface,,,,1,35
+Time Index,1,,Surface,,,,1,36
+Time Index,1,,Surface,,,,1,37
+Time Index,1,,Surface,,,,1,38
+Time Index,1,,Surface,,,,1,39
+Time Index,1,,Surface,,,,1,40
+Time Index,1,,Surface,,,,1,41
+Time Index,1,,Surface,,,,1,42
+Volume,0.0524575,um^3,Surface,,,,1,0
+Volume,0.000966549,um^3,Surface,,,,1,1
+Volume,0.0256092,um^3,Surface,,,,1,2
+Volume,0.000966549,um^3,Surface,,,,1,3
+Volume,0.0014991,um^3,Surface,,,,1,4
+Volume,0.000172597,um^3,Surface,,,,1,5
+Volume,0.00428622,um^3,Surface,,,,1,6
+Volume,0.000595566,um^3,Surface,,,,1,7
+Volume,0.0183665,um^3,Surface,,,,1,8
+Volume,0.000402947,um^3,Surface,,,,1,9
+Volume,0.000402962,um^3,Surface,,,,1,10
+Volume,0.000402961,um^3,Surface,,,,1,11
+Volume,8.34E-07,um^3,Surface,,,,1,12
+Volume,0.000402962,um^3,Surface,,,,1,13
+Volume,0.000403003,um^3,Surface,,,,1,14
+Volume,0.000402966,um^3,Surface,,,,1,15
+Volume,0.0382266,um^3,Surface,,,,1,16
+Volume,0.00351485,um^3,Surface,,,,1,17
+Volume,0.00181392,um^3,Surface,,,,1,18
+Volume,0.0334683,um^3,Surface,,,,1,19
+Volume,0.000417275,um^3,Surface,,,,1,20
+Volume,0.000856096,um^3,Surface,,,,1,21
+Volume,0.0638015,um^3,Surface,,,,1,22
+Volume,0.150399,um^3,Surface,,,,1,23
+Volume,0.000473756,um^3,Surface,,,,1,24
+Volume,0.00322669,um^3,Surface,,,,1,25
+Volume,0.00635826,um^3,Surface,,,,1,26
+Volume,0.000402968,um^3,Surface,,,,1,27
+Volume,0.053904,um^3,Surface,,,,1,28
+Volume,0.000402962,um^3,Surface,,,,1,29
+Volume,0.00172495,um^3,Surface,,,,1,30
+Volume,0.00222927,um^3,Surface,,,,1,31
+Volume,0.00114381,um^3,Surface,,,,1,32
+Volume,0.0294494,um^3,Surface,,,,1,33
+Volume,0.0758505,um^3,Surface,,,,1,34
+Volume,0.000402981,um^3,Surface,,,,1,35
+Volume,0.177929,um^3,Surface,,,,1,36
+Volume,0.12654,um^3,Surface,,,,1,37
+Volume,0.236464,um^3,Surface,,,,1,38
+Volume,0.231508,um^3,Surface,,,,1,39
+Volume,0.676818,um^3,Surface,,,,1,40
+Volume,0.102181,um^3,Surface,,,,1,41
+Volume,0.00288651,um^3,Surface,,,,1,42

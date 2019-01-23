@@ -1,0 +1,13 @@
+mod_sex,mod_cond,mod_retinal_layer,retinal_layer
+fem,od,ipl,2
+fem,od,opl,3
+fem,os,gcl,2
+fem,os,ipl,4
+fem,os,opl,1
+male,na,gcl,3
+male,od,gcl,1
+male,od,ipl,3
+male,od,opl,1
+male,os,gcl,2
+male,os,ipl,3
+male,os,opl,3

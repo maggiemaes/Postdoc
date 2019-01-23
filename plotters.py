@@ -127,9 +127,13 @@ def plot_dist(df_dict, conditions, title):
 
 def plot_sholl(df_dict, group, conditions, title):	
     
+    
+
     df_dict['na'].groupby(group).median()['Value'].plot(kind='line', color='orange', xlim=(0,125), ylim=(0,25), label='Naive', legend=True)
     df_dict['od'].groupby(group).median()['Value'].plot(kind='line', color='green', xlim=(0,125), ylim=(0,25), label='OD', legend=True)
     df_dict['os'].groupby(group).median()['Value'].plot(kind='line', color='black', xlim=(0,125), ylim=(0,25), label='OS', legend=True)
+    df_dict['rd'].groupby(group).median()['Value'].plot(kind='line', color='yellow', xlim=(0,125), ylim=(0,25), label='RD', legend=True)
+    df_dict['wt'].groupby(group).median()['Value'].plot(kind='line', color='pink', xlim=(0,125), ylim=(0,25), label='WT', legend=True)
     plt.legend()
     plt.title(title + ' per Condition')
     plt.show()
@@ -172,49 +176,79 @@ def plot_sholl(df_dict, group, conditions, title):
 def plot_volume(df, title, ymin, ylimit):
     df_od = df[df.mod_cond == 'od']
     df_os = df[df.mod_cond == 'os']
+    rd = df[df.mod_cond == 'rd']
+    wt = df[df.mod_cond == 'wt']
     array = ['os', 'od']
+    array2 = ['rd', 'wt']
+
     df_f = df[df.mod_sex == 'female']
-    df_f=df_f.loc[df_f['mod_cond'].isin(array)]
+    dff=df_f.loc[df_f['mod_cond'].isin(array)]
+    rdwt_f = df_f.loc[df_f['mod_cond'].isin(array2)]
   
     df_m = df[df.mod_sex == 'male']
-    df_m=df_m.loc[df_m['mod_cond'].isin(array)]
+    dfm=df_m.loc[df_m['mod_cond'].isin(array)]
+    rdwt_m = df_m.loc[df_m['mod_cond'].isin(array2)]
 
 
-    sns.violinplot(x='mod_retinal_layer', y= 'Value', hue='mod_sex',data = df_od, order=['gcl', 'ipl', 'opl'], split=True, inner="stick", palette='deep')
-    plt.title(title + ' OD')
-    plt.ylim(ymin,ylimit)
-    plt.show()
+ #    sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='mod_sex',data = df_od, order=['gcl', 'ipl', 'opl'],  palette='deep')
+ #    plt.title(title + ' OD')
+ #    plt.ylim(ymin,ylimit)
+ #    plt.show()
      
-    sns.violinplot(x='mod_retinal_layer', y='Value', hue='mod_sex', data=df_os, order=['gcl', 'ipl', 'opl'], split=True, inner="stick", palette='deep')
-    plt.title(title + ' OS')
-    plt.ylim(ymin,ylimit)
-    plt.show()
+ #    sns.boxplot(x='mod_retinal_layer', y='Value', hue='mod_sex', data=df_os, order=['gcl', 'ipl', 'opl'], palette='deep')
+ #    plt.title(title + ' OS')
+ #    plt.ylim(ymin,ylimit)
+ #    plt.show()
 
-    sns.violinplot(x='mod_cond', y= 'Value', hue='mod_sex',data = df, split=True, order=['na', 'od', 'os'], inner="stick", palette='deep')
-    plt.title(title + ' (per Condition)') 
-    plt.ylim(ymin,ylimit)
-    plt.show()
+ #    sns.boxplot(x='mod_cond', y= 'Value', hue='mod_sex',data = df, order=['na', 'od', 'os', 'wt','rd' ], palette='deep')
+ #    plt.title(title + ' (per Condition)') 
+ #    plt.ylim(ymin,ylimit)
+ #    plt.show()
 
- ##
-    sns.violinplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df_m, split=True, order=['gcl', 'ipl', 'opl'], inner="stick")
-    plt.title(title + ' Male') 
-    plt.ylim(ymin,ylimit)
-    plt.show() 
+ # ##
+    sns.stripplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df, hue_order= ['na', 'od', 'os'], palette='deep', jitter=True, dodge=True)
+    sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df, hue_order= ['na', 'od', 'os'], palette='deep')
+    ax = sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=['na', 'od', 'os'], palette='deep')
+    handles, labels = ax.get_legend_handles_labels()
+    for patch in ax.artists:
+      r, g, b, a = patch.get_facecolor()
+      patch.set_facecolor((r, g, b, .3))
 
-    sns.violinplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df_f, split=True, order=['gcl', 'ipl', 'opl'], inner="stick")
-    plt.title(title + ' Female') 
-    plt.ylim(ymin,ylimit)
-    plt.show() 
+    plt.legend(handles[0:3], labels[0:3])
+    plt.title(title)
+    plt.ylim(0,ylimit)
+    plt.xlabel('Retinal Layer')
+    plt.ylabel('CD68 per volume (%)')
+    plt.show()   
 
-    sns.boxplot(x='mod_cond', y= 'Value', hue = 'mod_retinal_layer', data = df, order=['na', 'od', 'os'])
+    # sns.violinplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = dff, split=True, order=['gcl', 'ipl', 'opl'], inner="stick")
+    # plt.title(title + ' Female') 
+    # plt.ylim(ymin,ylimit)
+    # plt.show() 
+
+    # sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = rdwt_m, order=['gcl', 'ipl', 'opl'], palette='deep')
+    # plt.title(title + ' Rd10') 
+    # plt.ylim(ymin,ylimit)
+    # plt.show() 
+    
+    # sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = rdwt_f, order=['gcl', 'ipl', 'opl'], palette='deep')
+    # plt.title(title + ' Rd10') 
+    # plt.ylim(ymin,ylimit)
+    # plt.show() 
+    
+    sns.stripplot(x='mod_cond', y= 'Value', hue = 'mod_retinal_layer', data = df, hue_order=[ 'ipl', 'opl'], order=['wt', 'rd'], palette='deep', dodge=True, jitter=True)
+    sns.boxplot(x='mod_cond', y= 'Value', hue = 'mod_retinal_layer', data = df, hue_order=[ 'ipl', 'opl'], order=['wt', 'rd'], palette='deep')
+    ax = sns.boxplot(x='mod_cond', y= 'Value', hue = 'mod_retinal_layer', data = df, hue_order=[ 'ipl', 'opl'], order=['wt', 'rd'], palette='deep')
+    handles, labels = ax.get_legend_handles_labels()
+    for patch in ax.artists:
+      r, g, b, a = patch.get_facecolor()
+      patch.set_facecolor((r, g, b, .3))
+
+    plt.legend(handles[0:2], labels[0:2])
     plt.title(title)
     plt.ylim(0,ylimit)
     plt.show()
 
-    sns.boxplot(x='mod_cond', y= 'Value', hue = 'mod_sex', data = df, order=['na', 'od', 'os'])
-    plt.ylim(0,ylimit)
-    plt.title(title)
-    plt.show()
 
 
 

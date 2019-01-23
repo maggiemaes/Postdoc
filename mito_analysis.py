@@ -14,33 +14,42 @@ def mitos():
     data2 = tools.get_loc_files('/Users/mmaes/Documents/Python_scripts/raw_data/*.csv')
     
     df= tools.get_raw_data(data1,data2)
-    conditions = {'na': ['gcl', 'ipl', 'opl'], 'os': ['gcl', 'ipl', 'opl'], 'od': ['gcl', 'ipl', 'opl']}
+    conditions = {'na': ['gcl', 'ipl', 'opl'], 'os': ['gcl', 'ipl', 'opl'], 'od': ['gcl', 'ipl', 'opl'], 'rd': ['gcl', 'ipl', 'opl'], 'wt': ['gcl', 'ipl', 'opl']}
     
     #Distance
     # dist = df[df.Variable == 'distance']
     # dist_mito = dist[dist.surface_type == 'mitoloc']
-    # # dist_mito = dist_mito[['sex', 'condition', 'retinal_layer', 'Value', 'mod_sex', 'mod_cond', 'mod_retinal_layer']]
+    # dist_mito = dist_mito[['sex', 'condition', 'retinal_layer', 'Value', 'mod_sex', 'mod_cond', 'mod_retinal_layer']]
     # dist_mito_grps = tools.get_groups(dist_mito, conditions)
-    
+    # mdist= df[(df.Variable == 'distance') & (df.surface_type == 'mitoloc')]
+    # mdist1 = mdist.groupby(['sex', 'condition', 'retinal_layer','mod_sex', 'mod_cond', 'mod_retinal_layer']).median()['Value']
+    # mdist1 = mdist1.reset_index()
+    # plot.plot_volume(mdist1, 'Mitochondria Distance from Nucleus', 0, 60)
+
+
     # dist_cd68 = dist[dist.surface_type == 'cd68loc']
     # dist_cd68_grps = tools.get_groups(dist_cd68, conditions) # this equals a dict containing all curated dataframe for plotting
-    # plot.plot_dist(dist_mito_grps, conditions, 'Mitochondria Distance from Nucleus')
     # plot.plot_dist(dist_cd68_grps, conditions, 'Cd68 Distance from Nucleus')
 
-    # # #Mitochondria Volume
+    # # # #Mitochondria Volume
     # df_mitovol = df[(df.Variable == 'Volume') & (df.surface_type == 'mito')]
+    # df_mitovol= df_mitovol[(df_mitovol.Value >= 0.01)]
+    # # df_mitovol = df_mitovol[(df_mitovol['mod_cond'] != 'rd')& (df_mitovol['mod_cond'] != 'wt')] 
     # cell = df_mitovol.groupby(['sex', 'condition', 'retinal_layer','mod_sex', 'mod_cond', 'mod_retinal_layer']).mean()['Value']
     # cell = cell.to_frame().reset_index()
-    # plot.plot_volume(cell, 'Avg Mitochondria Volume', -1, 5)
+    # # print(len(df_mitovol['Value']))
+    # plot.plot_volume(cell, 'Avg Mitochondria Volume', 0, 5)
 
     
     # # %volume cd68 per volume microglia
-    # df_pcnt = df[df.Variable == 'Volume']
-    # df_pcnt = df_pcnt.groupby(['surface_type', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
-    # df_pcnt = (df_pcnt.loc['cd68'] / df_pcnt.loc['mg'])*100      #total cd68 vol/ total mg volume per each cell
-    # df_pcnt = df_pcnt.reset_index()
-    # df_pcnt['surface_type'] = 'pcnt_cd68_volume'    
-    # plot.plot_volume(df_pcnt, 'CD68 percentage of Volume', -10, 30)
+    df_pcnt = df[df.Variable == 'Volume']  
+    df_pcnt= df_pcnt[df_pcnt.mod_retinal_layer == 'opl']
+    df_pcnt = df_pcnt[(df_pcnt['mod_cond'] != 'rd')& (df_pcnt['mod_cond'] != 'wt')] 
+    df_pcnt = df_pcnt.groupby(['surface_type', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
+    df_pcnt = (df_pcnt.loc['cd68'] / df_pcnt.loc['mg'])*100      #total cd68 vol/ total mg volume per each cell
+    df_pcnt = df_pcnt.reset_index()
+    df_pcnt['surface_type'] = 'pcnt_cd68_volume'    
+    plot.plot_volume(df_pcnt, 'CD68 percentage of Volume', 0, 25)
 
 
    #sholl analysis
@@ -50,25 +59,20 @@ def mitos():
     # plot.plot_sholl(dict_sh, 'Radius', conditions, 'Sholl Intersections')
 
     # #Surf-Surf Contact Area Mito-lyso
-    mitolyso = df[df.surface_type == 'mitolyso']
-    mitolyso = mitolyso.groupby(['Variable', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
+    # mitolyso = df[df.surface_type == 'mitolyso']
+    # mitolyso = mitolyso.groupby(['Variable', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
+    # mito_area = df[(df.surface_type == 'mito') & (df.Variable == 'Area')]
+    # mito_area = mito_area.groupby(['Variable', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
     
-    mito_area = df[(df.surface_type == 'mito') & (df.Variable == 'Area')]
-    mito_area = mito_area.groupby(['Variable', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
-    
-    pcnt_mito = (mitolyso.loc['Contact surface area'] / mito_area.loc['Area'])*100
-    pcnt_mito = pcnt_mito.reset_index()
-    pcnt_mito['surface_type'] = ' pcnt mito contact Cd68'
-    plot.plot_volume(pcnt_mito, 'Mito Contacts', -50, 200)
 
-    # sns.boxplot(x='mod_cond', y = 'Value', hue='mod_sex', data=pcnt_mito, order=['na', 'od', 'os'])
-    # plt.ylim(0,65)
-    # plt.title('Percent of Mito Surfaces in contact with CD68 Surfaces')
-    # plt.show()
-    # sns.violinplot(x='mod_retinal_layer', y='Value', hue='mod_sex', data=pcnt_mito, order=['gcl', 'ipl', 'opl'], inner="stick", split=True)
-    # plt.show()
-    # sns.swarmplot(x='mod_cond', y='Value', hue='mod_retinal_layer', data=pcnt_mito, order=['na', 'od', 'os'])
-    # plt.show() 
+    # pcnt_mito = (mitolyso.loc['Contact surface area'] / mito_area.loc['Area'])*100
+    # pcnt_mito = pcnt_mito.reset_index()
+    # pcnt_mito = pcnt_mito[(pcnt_mito['mod_cond'] != 'rd')& (pcnt_mito['mod_cond'] != 'wt')& (pcnt_mito['mod_retinal_layer'] != 'gcl')] 
+
+    # pcnt_mito['surface_type'] = ' pcnt mito contact Cd68'
+    # plot.plot_volume(pcnt_mito, 'Mito Contacts', 0, 100)
+
+
     
 def cumulative_plot(): 
     data1 = tools.get_stat_files('/Users/mmaes/Documents/Python_scripts/raw_data/**/*.csv', 2)
