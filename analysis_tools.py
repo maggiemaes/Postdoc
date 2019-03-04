@@ -45,10 +45,36 @@ def get_loc_files(filepath):
     data2['Variable'] = 'distance'
     return data2    
 
+## import files from Imaris v9.2.1 and older v9.1.1
+def get_stat2_files(filepath, header):
+    dfs = []
+    for filename in glob.glob(filepath):
+        cellname = os.path.basename(filename)[0:-4]
+        print(cellname.split('_')[0:5])
+        if cellname.split('_')[0:6][-1] == 'Detailed':  
+            df = pd.read_csv(filename, na_values = ' ', header = header, error_bad_lines = False).fillna(0)
+            df = df.drop(df.columns[df.columns.str.contains('Unnamed')], axis=1)
+            df['Date'], df['sex'], df['condition'], df['retinal_layer'], df['surface_type'] = cellname.split('_')[0:5]
+            dfs.append(df)
+        else:
+            exclude = ['Ch=', 'Img=']    
+            xtra = ' '.join([word for word in cellname.split('_')[5:] if not word.startswith(tuple(exclude))])       
+            df3 = pd.read_csv(filename, na_values = ' ', header = header, error_bad_lines = False).fillna(0)
+            if 'Time.1' in df3.columns: 
+                df3= df3.drop(columns= 'Time.1')
+            df3 = df3.drop(df3.columns[df3.columns.str.contains('Unnamed')], axis=1)
+            df3 = df3.rename(columns = {xtra: 'Value'})
+            df3['Date'], df3['sex'], df3['condition'], df3['retinal_layer'], df3['surface_type'] = cellname.split('_')[0:5]
+            if cellname.split('_')[0:6][-1] == 'Overall': 
+                df3.rename(columns = {'Variable': xtra})
+            df3['Variable'] = xtra
+            dfs.append(df3)
+    return pd.concat(dfs, sort=True) 
+
 #combine data imports to compile all raw data
 def get_raw_data(data1, data2):
     df_all = pd.concat([data1, data2], sort=True)
-    df_all = df_all.drop(columns=['Collection', 'Channel', 'Depth','Image', 'Level', 'Distance', 'FilamentID', 'Surpass Object'])
+    # df_all = df_all.drop(columns=['Collection', 'Channel', 'Depth','Image', 'Level', 'Distance', 'FilamentID', 'Surpass Object'])
     df_all['mod_cond'] = df_all['condition'].str[:2]
     df_all['mod_retinal_layer'] = df_all['retinal_layer'].str[:3]
     df_all['mod_sex'] = df_all['sex'].str[:-1]
