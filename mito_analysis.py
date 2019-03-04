@@ -118,7 +118,7 @@ def cumulative_plot():
     # dataset.to_csv('dataset.csv')
 
 if __name__ == "__main__":
-    raw_data()
+    mitos()
 
 
 

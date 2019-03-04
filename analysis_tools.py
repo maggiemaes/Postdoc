@@ -48,28 +48,36 @@ def get_loc_files(filepath):
 ## import files from Imaris v9.2.1 and older v9.1.1
 def get_stat2_files(filepath, header):
     dfs = []
+    d= []
     for filename in glob.glob(filepath):
         cellname = os.path.basename(filename)[0:-4]
-        print(cellname.split('_')[0:5])
-        if cellname.split('_')[0:6][-1] == 'Detailed':  
+       ##print(cellname.split('_')[0:6])
+        if cellname.split('_')[0:6][-1] == 'Detailed': 
+            print(cellname.split('_')[0:6], 'yes')
             df = pd.read_csv(filename, na_values = ' ', header = header, error_bad_lines = False).fillna(0)
             df = df.drop(df.columns[df.columns.str.contains('Unnamed')], axis=1)
             df['Date'], df['sex'], df['condition'], df['retinal_layer'], df['surface_type'] = cellname.split('_')[0:5]
-            dfs.append(df)
+            dfs.append(df)        
         else:
+            print(cellname.split('_')[0:6],'new format')
             exclude = ['Ch=', 'Img=']    
             xtra = ' '.join([word for word in cellname.split('_')[5:] if not word.startswith(tuple(exclude))])       
             df3 = pd.read_csv(filename, na_values = ' ', header = header, error_bad_lines = False).fillna(0)
+            
             if 'Time.1' in df3.columns: 
                 df3= df3.drop(columns= 'Time.1')
+            ##Overall file has several issues, and data is not needed anyway         
+            if cellname.split('_')[0:6][-1] == 'Overall' and cellname.split('_')[0:5][-1] == 'mitolyso': 
+                df3 = df3.drop(columns= ['Overall', 'Variable', 'Value', 'Unit', 'Custom', 'Time', 'ID']) ##only mitolyso file has duplicated column name of overall
             df3 = df3.drop(df3.columns[df3.columns.str.contains('Unnamed')], axis=1)
             df3 = df3.rename(columns = {xtra: 'Value'})
             df3['Date'], df3['sex'], df3['condition'], df3['retinal_layer'], df3['surface_type'] = cellname.split('_')[0:5]
-            if cellname.split('_')[0:6][-1] == 'Overall': 
-                df3.rename(columns = {'Variable': xtra})
             df3['Variable'] = xtra
-            dfs.append(df3)
-    return pd.concat(dfs, sort=True) 
+            d.append(df3)    
+            
+    ver1 = pd.concat(dfs, sort=True)
+    ver2 = pd.concat(d, sort=True)
+    return pd.concat([ver1, ver2], sort=True)
 
 #combine data imports to compile all raw data
 def get_raw_data(data1, data2):
