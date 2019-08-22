@@ -16,8 +16,9 @@ def raw_data():
 
 def mitos():
     df = pd.read_csv('/Users/mmaes/Documents/Python_scripts/Database/compiled_raw_data.csv', low_memory=False).fillna(0)
-    conditions = {'na': ['gcl', 'ipl', 'opl'], 'os': ['gcl', 'ipl', 'opl'], 'od': ['gcl', 'ipl', 'opl'], 'rd': ['gcl', 'ipl', 'opl'], 'wt': ['gcl', 'ipl', 'opl']}
-    
+    # old verison: conditions = {'naive': ['gcl', 'ipl', 'opl'], 'os': ['gcl', 'ipl', 'opl'], 'od': ['gcl', 'ipl', 'opl'], 'rd': ['gcl', 'ipl', 'opl'], 'wt': ['gcl', 'ipl', 'opl']}
+    conditions = {'naive': ['ipl', 'opl'], 'os': ['ipl', 'opl'], 'od': ['ipl', 'opl'],'d14os': ['ipl', 'opl'], 'd14od': ['ipl', 'opl'], 'd35os': ['ipl', 'opl'], 'd35od': ['ipl', 'opl'], 'rd': ['gcl', 'ipl', 'opl'], 'wt': ['gcl', 'ipl', 'opl']}
+
     #Distance
     # dist = df[df.Variable == 'distance']
     # dist_mito = dist[dist.surface_type == 'mitoloc']
@@ -40,24 +41,35 @@ def mitos():
     # cell = df_mitovol.groupby(['sex', 'condition', 'retinal_layer','mod_sex', 'mod_cond', 'mod_retinal_layer']).mean()['Value']
     # cell = cell.to_frame().reset_index()
     # # print(len(df_mitovol['Value']))
-    # plot.plot_volume(cell, 'Avg Mitochondria Volume', 'Volume (um^3)', 0, 6)
+    # cell.to_csv('/Users/mmaes/Documents/Python_scripts/Output/mitovol.csv')
+    # plot.plot_volume(cell, 'Avg organelle volume per cell', 'Volume (um^3)', 0, 6)
+
+    ### ##Mitochondria number
+    # df_mitovol = df[(df.Variable == 'Volume') & (df.surface_type == 'mito')]
+    # df_mitovol= df_mitovol[(df_mitovol.Value >= 0.01)]
+    # df_mitonum = df_mitovol.groupby(['sex', 'condition', 'retinal_layer','mod_sex', 'mod_cond', 'mod_retinal_layer']).count()
+    # df_mitonum= df_mitonum.reset_index()
+    # plot.plot_volume(df_mitonum, 'Mitochondria Number', 'Number per cell', 0, 125)
 
     
-    # # %volume cd68 per volume microglia
+    # # # %volume cd68 per volume microglia
     df_pcnt = df[df.Variable == 'Volume']  
-    # df_pcnt= df_pcnt[df_pcnt.mod_retinal_layer == 'opl']
-    # df_pcnt = df_pcnt[(df_pcnt['mod_cond'] != 'rd')& (df_pcnt['mod_cond'] != 'wt')] 
-    df_pcnt = df_pcnt.groupby(['surface_type', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
+    # # # df_pcnt = df_pcnt[(df_pcnt['mod_cond'] != 'rd')& (df_pcnt['mod_cond'] != 'wt')] 
+    df_pcnt = df_pcnt.groupby(['surface_type', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond','new_cond', 'mod_retinal_layer']).sum()['Value']
     df_pcnt_cd = (df_pcnt.loc['cd68'] / df_pcnt.loc['mg'])*100      #total cd68 vol/ total mg volume per each cell
     df_pcnt_cd = df_pcnt_cd.reset_index()
     df_pcnt_cd['surface_type'] = 'pcnt_cd68_volume'    
-    plot.plot_volume(df_pcnt_cd, 'CD68 percentage of Volume', 'Percent (%)', 0, 50)
-    # ### volume mito per vol mg
+    df_pcnt_cd.to_csv('/Users/mmaes/Documents/Python_scripts/Output/cd68_pcnt.csv')
+    plot.plot_volume(df_pcnt_cd, 'CD68 percentage of Volume', 'Percent (%)', 0, 30)
+    
+    ### volume mito per vol mg
     # df_pcnt_mito = (df_pcnt.loc['mito'] / df_pcnt.loc['mg'])*100      #total mito vol/ total mg volume per each cell
     # df_pcnt_mito = df_pcnt_mito.reset_index()
     # df_pcnt_mito['surface_type'] = 'pcnt_mito_volume'    
     # plot.plot_volume(df_pcnt_mito, 'Mito percentage of Volume', 'Percent (%)', 0, 25)
-
+    # total = df_pcnt.loc['mito']
+    # total = total.reset_index()
+    # plot.plot_volume(total, 'Mito percentage of Volume', 'Percent (%)', 0, 25)
 
    #sholl analysis
     # df_sh = df[(df.surface_type == 'scholl') & (df.Variable == 'Filament No. Sholl Intersections')]
@@ -65,14 +77,14 @@ def mitos():
     # dict_sh = tools.get_groups(df_sh, conditions)
     # plot.plot_sholl(dict_sh, 'Radius', conditions, 'Sholl Intersections')
 
-    # #Surf-Surf Contact Area Mito-lyso
+    # # #Surf-Surf Contact Area Mito-lyso
     # mitolyso = df[df.surface_type == 'mitolyso']
     # mitolyso = mitolyso.groupby(['Variable', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
     # mito_area = df[(df.surface_type == 'mito') & (df.Variable == 'Area')]
     # mito_area = mito_area.groupby(['Variable', 'sex','condition', 'retinal_layer', 'mod_sex', 'mod_cond', 'mod_retinal_layer']).sum()['Value']
     
 
-    # pcnt_mito = (mitolyso.loc['Contact surface area'] / mito_area.loc['Area'])*100
+    # pcnt_mito = ((mitolyso.loc['Contact surface area'] / mito_area.loc['Area'])*100)
     # pcnt_mito = pcnt_mito.reset_index()
     # pcnt_mito= pcnt_mito[(pcnt_mito.Value <= 100)]  #remove weird outlier
     # # pcnt_mito = pcnt_mito[(pcnt_mito['mod_cond'] != 'rd')& (pcnt_mito['mod_cond'] != 'wt')& (pcnt_mito['mod_retinal_layer'] != 'gcl')] 
@@ -118,7 +130,7 @@ def cumulative_plot():
     # dataset.to_csv('dataset.csv')
 
 if __name__ == "__main__":
-    mitos()
+    raw_data()
 
 
 
