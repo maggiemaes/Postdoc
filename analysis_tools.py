@@ -45,52 +45,107 @@ def get_loc_files(filepath):
     data2['Variable'] = 'distance'
     return data2    
 
-## import files from Imaris v9.3, v9.2.1 and older v9.1.1
-def get_stat2_files(filepath, header):
+#
+# Reading utilities for "stat" files 
+#
+
+def read_v9_1(fname):
+    cellname = os.path.basename(fname)[:-len('.csv')]
+    df = pd.read_csv(fname, na_values=' ', header=2, error_bad_lines=False).fillna(0)
+    
+    if 'Variable' not in df.columns:
+        msg = '{} (v9_1) has no variable column'
+        raise ValueError(msg.format(fname))
+    
+    df = df.drop(df.columns[df.columns.str.contains('Unnamed')], axis=1)
+    df['Date'], df['sex'], df['condition'], df['retinal_layer'], df['surface_type'] = cellname.split('_')[0:5]
+    return df
+
+# this is a generic function for both 9.2 and 9.3 files after we discover the cell and variable names
+def _read_v9_1_plus(fname, variable, cellname):
+    df = pd.read_csv(fname, na_values=' ', header=2, error_bad_lines=False).fillna(0)
+    df = df.drop(df.columns[df.columns.str.contains('Unnamed')], axis=1)
+
+    # sometimes position values have multiple data columns, melt into one observation per row
+    var_cols = df.columns[df.columns.str.startswith(variable)]
+    if len(var_cols) >1:
+        value_vars = var_cols
+        id_vars = set(df.columns) - set(value_vars)
+        df = df.melt(value_vars=value_vars, id_vars=id_vars, 
+                     value_name=variable, var_name='Variable')
+    elif len(var_cols) == 1:
+        df['Variable'] = variable
+    else:
+        msg = '{} not in columns for V9_3 file {}, need to update the function read_v9_3 in order to handle this'
+        raise ValueError(msg.format(variable, fname))
+
+    # get additional column names/data correct
+    df = df.rename(columns={variable: 'Value'})
+    df['Date'], df['sex'], df['condition'], df['retinal_layer'], df['surface_type'] = cellname.split('_')[0:5]
+    return df
+
+def varname_v9_2(fname):
+    parts = os.path.basename(fname).split('_')[5:]
+    if '=' not in ' '.join(parts):
+        return ' '.join(parts)[:-len('.csv')].strip()
+    
+    # otherwise, theres some magic here, find everything up to first = and only join that
+    for i, part in enumerate(parts):
+        if '=' in part:
+            idx = i
+            break
+    return ' '.join(parts[:idx]).strip()
+
+def read_v9_2(fname):
+    cellname = ' _'.join(os.path.basename(fname).split('_')[0:5])
+    variable = varname_v9_2(fname)
+    return read_v9_1_plus(fname, variable, cellname)
+
+def varname_v9_3(fname):
+    basename = os.path.basename(fname)
+    if '=' in basename:
+        variable = ' '.join(basename.split('=')[0].split('_')[:-1])
+    else:
+        variable = ' '.join(basename[:-len('.csv')].split('_'))
+    return variable.strip()
+
+def read_v9_3(fname):
+    cellname = os.path.basename(os.path.dirname(fname))
+    variable = varname_v9_3(fname)
+    return read_v9_1_plus(fname, variable, cellname)
+
+
+def determine_version(fname):
+    basename = os.path.basename(fname)
+    dirname = os.path.basename(os.path.dirname(fname))
+    # 9.1 always looks like 2018_xx_yy/Detailed_xx_yy.csv
+    if 'Detailed' in fname:
+        version = '9_1'
+    # 9.2 looks like 2018_xx_yy/2018_xx_yy.csv
+    elif basename.split('_')[0] == dirname.split('_')[0]:
+        version = '9_2'
+    else:
+        version = '9_3'
+    return version
+
+
+def get_stat2_files(fnames):
     dfs = []
-    d= []
-    for filename in glob.glob(filepath):
-        cellname = os.path.basename(filename)[0:-4]
-       ##print(cellname.split('_')[0:6])
-        if cellname.split('_')[0:6][-1] == 'Detailed': 
-            print(cellname.split('_')[0:6], 'yes')
-            df = pd.read_csv(filename, na_values = ' ', header = header, error_bad_lines = False).fillna(0)
-            df = df.drop(df.columns[df.columns.str.contains('Unnamed')], axis=1)
-            df['Date'], df['sex'], df['condition'], df['retinal_layer'], df['surface_type'] = cellname.split('_')[0:5]
-            dfs.append(df)        
-        elif cellname.split('_')[0] != filename.split('/')[6][0:8]:
-           ### Third formatting change in imaris. File name now no longer contains original file name information
-            print("format3" )
-            new_name = filename.split('/')[6]
-#             print(new_name)
-            exclude = ['Ch=', 'Img=']    
-            new_df = pd.read_csv(filename, na_values = ' ', header = header, error_bad_lines = False).fillna(0)
-            new_df = new_df.drop(new_df.columns[new_df.columns.str.contains('Unnamed')], axis=1)
-            new_df = new_df.rename(columns = {cellname[:-4]: 'Value'})
-            new_df['Date'], new_df['sex'], new_df['condition'], new_df['retinal_layer'], new_df['surface_type'] = new_name.split('_')[0:5]
-            new_df['Variable'] = cellname[:-4]
-            new_df.append(new_df)
-            # print(new_df.columns)
-        else:
-            ## New formatted files have Value column labeled as the Variable type, must rename and organize for import
-            print(cellname.split('_')[0:6],'new format')
-            exclude = ['Ch=', 'Img=']    
-            xtra = ' '.join([word for word in cellname.split('_')[5:] if not word.startswith(tuple(exclude))]).strip()       
-            df3 = pd.read_csv(filename, na_values = ' ', header = header, error_bad_lines = False).fillna(0)
-            if 'Time.1' in df3.columns: 
-                df3= df3.drop(columns= 'Time.1')
-            ##Overall file has several issues, and data is not needed anyway         
-            if cellname.split('_')[0:6][-1] == 'Overall' and cellname.split('_')[0:5][-1] == 'mitolyso': 
-                df3 = df3.drop(columns= ['Overall', 'Variable', 'Value', 'Unit', 'Custom', 'Time', 'ID']) #drops columns in overall files
-            df3 = df3.drop(df3.columns[df3.columns.str.contains('Unnamed')], axis=1)
-            df3 = df3.rename(columns = {xtra: 'Value'})
-            df3['Date'], df3['sex'], df3['condition'], df3['retinal_layer'], df3['surface_type'] = cellname.split('_')[0:5]
-            df3['Variable'] = xtra
-            d.append(df3)    
-            
-    ver1 = pd.concat(dfs, sort=True)
-    ver2 = pd.concat(d, sort=True)
-    return pd.concat([ver1, ver2], sort=True)
+    len_count = 0
+    for fname in fnames:
+        version = determine_version(fname)
+        df = read_funcs[version](fname)
+        if set(['Value', 'Variable']) - set(df.columns):
+            raise ValueError('Fname: {} Version: {} is missing value or variable columns: {}'.format(fname, version, df.columns))
+        if df.Value.isnull().any():
+            raise ValueError('Fname: {} Version: {} has NaN values in Value Column'.format(fname, version))
+        if df.Variable.apply(lambda x: len(x) == 0).any():
+            raise ValueError('Fname: {} Version: {} could not discern Variable value'.format(fname, version))
+        len_count += len(df)
+        dfs.append(df)
+    ret = pd.concat(dfs, sort=False)
+    assert lencount == len(ret)
+    return ret
 
 #combine data imports to compile all raw data
 def get_raw_data(data1, data2):
