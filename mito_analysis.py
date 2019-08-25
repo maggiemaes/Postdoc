@@ -9,7 +9,9 @@ import matplotlib.pyplot as plt
 
 
 def raw_data():
-    data1 = tools.get_stat2_files('/Users/mmaes/Documents/Python_scripts/raw_data/**/*.csv', 2)
+    fnames = glob.glob('/Users/mmaes/Documents/Python_scripts/raw_data/**/*.csv')
+    fnames = [f for f in fnames if not f.endswith('Overall.csv')]
+    data1 = tools.get_stat2_files(fnames)
     data2 = tools.get_loc_files('/Users/mmaes/Documents/Python_scripts/raw_data/*.csv')
     df= tools.get_raw_data(data1, data2)  
     df.to_csv('/Users/mmaes/Documents/Python_scripts/Database/compiled_raw_data.csv')
