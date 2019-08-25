@@ -99,7 +99,7 @@ def varname_v9_2(fname):
 def read_v9_2(fname):
     cellname = ' _'.join(os.path.basename(fname).split('_')[0:5])
     variable = varname_v9_2(fname)
-    return read_v9_1_plus(fname, variable, cellname)
+    return _read_v9_1_plus(fname, variable, cellname)
 
 def varname_v9_3(fname):
     basename = os.path.basename(fname)
@@ -112,7 +112,7 @@ def varname_v9_3(fname):
 def read_v9_3(fname):
     cellname = os.path.basename(os.path.dirname(fname))
     variable = varname_v9_3(fname)
-    return read_v9_1_plus(fname, variable, cellname)
+    return _read_v9_1_plus(fname, variable, cellname)
 
 
 def determine_version(fname):
@@ -130,6 +130,11 @@ def determine_version(fname):
 
 
 def get_stat2_files(fnames):
+    read_funcs = {
+        '9_1': read_v9_1,
+        '9_2': read_v9_2,
+        '9_3': read_v9_3,
+    }
     dfs = []
     len_count = 0
     for fname in fnames:
