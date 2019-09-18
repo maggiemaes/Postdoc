@@ -176,8 +176,8 @@ def plot_sholl(df_dict, group, conditions, title):
 def plot_volume(df, title, ylabel, ymin, ylimit):
     df_od = df[df.mod_cond == 'od']
     df_os = df[df.mod_cond == 'os']
-    df_d14od = df[df.new_cond == 'd14od']
-    df_d14os = df[df.new_cond == 'd14os']
+    df_naive = df[df.mod_cond == 'naive']
+
     rd = df[df.mod_cond == 'rd']
     wt = df[df.mod_cond == 'wt']
     array = ['os', 'od']
@@ -193,84 +193,116 @@ def plot_volume(df, title, ylabel, ymin, ylimit):
     
     ipl = df[df.mod_retinal_layer == 'ipl']
     opl = df[df.mod_retinal_layer ==  'opl']
-    conditions = [ipl, opl]
+    layers = [ipl, opl]
+    conditions = [df_od, df_os, df_naive]
+    colors = sns.color_palette('Set2')#['turquoise', 'tomato','magenta', 'blue']
+    hues = ['naive', 'd5', 'd14', 'd35']
 
-    # sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='mod_sex',data = df_od, order=['gcl', 'ipl', 'opl'],  palette='deep')
-    # plt.title(title + ' OD')
-    # plt.ylim(ymin,ylimit)
-    # plt.show()
-     
-    # sns.boxplot(x='mod_retinal_layer', y='Value', hue='mod_sex', data=df_os, order=['gcl', 'ipl', 'opl'], palette='deep')
-    # plt.title(title + ' OS')
-    # plt.ylim(ymin,ylimit)
-    # plt.show()
-
-    for i in range(len(conditions)): 
-        colors = ['c', 'mediumvioletred']
-        sns.boxplot(x='mod_cond', y= 'Value', hue='mod_sex', data = conditions[i], order=['naive', 'd14od', 'd14os', 'd35od', 'd35os', 'wt', 'rd'], palette=colors)
-        sns.stripplot(x='mod_cond', y= 'Value', hue='mod_sex', data = conditions[i], order=['naive', 'd14od', 'd14os', 'd35od', 'd35os', 'wt', 'rd'], palette=colors, jitter=True, dodge=True)    
-        ax = sns.boxplot(x='mod_cond', y= 'Value', hue='mod_sex', data = conditions[i], order=['naive', 'd14od', 'd14os', 'd35od', 'd35os', 'wt', 'rd'], palette='Set2')
+    for x in range(len(layers)):
+        sns.stripplot(x='timepoint', y='Value', hue='mod_cond', data = layers[x], order=hues, palette=colors, jitter=True, dodge=True)    
+        ax = sns.boxplot(x='timepoint', y='Value',  hue='mod_cond', data= layers[x], order=hues, palette=colors)
         handles, labels = ax.get_legend_handles_labels()
         for patch in ax.artists:
-          r, g, b, a = patch.get_facecolor()
-          patch.set_facecolor((r, g, b, .3))
-        layer = str(conditions[i].mod_retinal_layer.unique())
+            r, g, b, a = patch.get_facecolor()
+            patch.set_facecolor((r, g, b, .1))
+        layer = str(layers[x].mod_retinal_layer.unique())
 
-        plt.title(title + layer + ' per condition') 
-        plt.legend(handles[0:2], labels[0:2])
+        plt.title(title + layer +' per condition') 
+        plt.legend(handles[0:4], labels[0:4])
         plt.ylim(ymin,ylimit)
         plt.ylabel(ylabel)
-        plt.xlabel('Experimental Condition')
+        plt.savefig(title + layer + '.pdf')
         plt.show()
-        # plt.savefig('title.eps', dpi=300)
+
+    # for i in range(len(conditions)): 
+    #     colors = ['c', 'mediumvioletred']
+    #     sns.boxplot(x='timepoint', y='Value', hue='mod_cond', data = conditions[i], order=['wt', 'rd'], palette=colors)#['naive', 'd5', 'd14', 'd35']hue='mod_cond',
+    #     sns.stripplot(x='timepoint', y='Value', hue='mod_cond', data = conditions[i], order=['wt', 'rd'], palette=colors, jitter=True, dodge=True)    
+    #     ax = sns.boxplot(x='timepoint', y='Value',  hue='mod_cond', data=conditions[i], order=['wt', 'rd'], palette='Set2')
+    #     handles, labels = ax.get_legend_handles_labels()
+    #     for patch in ax.artists:
+    #       r, g, b, a = patch.get_facecolor()
+    #       patch.set_facecolor((r, g, b, .3))
+    #     layer = str(conditions[i].mod_retinal_layer.unique())
+
+    #     plt.title(title + layer + ' per condition') 
+    #     plt.legend(handles[0:2], labels[0:2])
+    #     plt.ylim(ymin,ylimit)
+    #     plt.ylabel(ylabel)
+    #     plt.xlabel('Experimental Condition')
+    #     plt.show()
+    #     # plt.savefig('title.eps', dpi=300)
+
+    #   ###plot for posters   
+    # for i in range(len(conditions)): 
+    #     colors = sns.color_palette('Set2') #['turquoise', 'tomato','magenta', 'blue']
+    #     hues = ['naive', 'd5', 'd14', 'd35']
+    #     order = ['ipl','opl']
+
+    #     sns.stripplot(x='mod_retinal_layer', y='Value', hue='timepoint', data = conditions[i], hue_order=hues,  palette=colors, jitter=True, dodge=True)    
+    #     ax = sns.boxplot(x='mod_retinal_layer', y='Value',  hue='timepoint', data=conditions[i], hue_order=hues,  palette=colors)
+    #     handles, labels = ax.get_legend_handles_labels()
+    #     for patch in ax.artists:
+    #       r, g, b, a = patch.get_facecolor()
+    #       patch.set_facecolor((r, g, b, .2))
+    #     layer = str(conditions[i].mod_retinal_layer.unique())
+
+    #     plt.title(title + layer + ' per condition') 
+    #     plt.legend(handles[0:4], labels[0:4])
+    #     plt.ylim(ymin,ylimit)
+    #     plt.ylabel(ylabel)
+    #     plt.xlabel('Experimental Condition')
+    #     plt.savefig(title + layer + '.pdf')
+    #     plt.show()
+    #     plt.close()
 
  # ##
-    sns.stripplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df, hue_order= ['na', 'od', 'os'],order=['ipl', 'opl'] ,palette='deep', jitter=True, dodge=True)
-    sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df, hue_order= ['na', 'od', 'os'],order=['ipl', 'opl'], palette='deep')
-    ax = sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=['na', 'od', 'os'], order=['ipl', 'opl'],palette='deep')
-    handles, labels = ax.get_legend_handles_labels()
-    for patch in ax.artists:
-      r, g, b, a = patch.get_facecolor()
-      patch.set_facecolor((r, g, b, .3))
+    # sns.stripplot(x='mod_retinal_layer', y= 'Value', hue='condition',data = df, hue_order= ['naiveos', 'naiveod', 'd5od', 'd5os', 'd14od', 'd14os', 'd35od', 'd35os', 'wtod', 'wtos', 'rdod', 'rdos'],order=['ipl', 'opl'] ,palette='deep', jitter=True, dodge=True)
+    # sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='condition',data = df, hue_order= ['naiveos', 'naiveod', 'd5od', 'd5os', 'd14od', 'd14os', 'd35od', 'd35os', 'wtod', 'wtos', 'rdod', 'rdos'],order=['ipl', 'opl'], palette='deep')
+    # ax = sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'condition', data = df, hue_order=['naiveos', 'naiveod', 'd5od', 'd5os', 'd14od', 'd14os', 'd35od', 'd35os', 'wtod', 'wtos', 'rdod', 'rdos'], order=['ipl', 'opl'],palette='deep')
+    # handles, labels = ax.get_legend_handles_labels()
+    # for patch in ax.artists:
+    #   r, g, b, a = patch.get_facecolor()
+    #   patch.set_facecolor((r, g, b, .3))
 
-    plt.legend(handles[0:3], labels[0:3])
-    plt.title(title)
-    plt.ylim(0,ylimit)
-    plt.ylabel(ylabel)
-    plt.xlabel('Retinal Layer')
-    plt.show()   
+    # plt.legend(handles[0:12], labels[0:12])
+    # plt.title(title)
+    # plt.ylim(0,ylimit)
+    # plt.ylabel(ylabel)
+    # plt.xlabel('Retinal Layer')
+    # plt.show()   
     
 
     
- #    sns.stripplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=[ 'wt', 'rd'], order=['ipl', 'opl'], palette='deep', dodge=True, jitter=True)
- #    sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=[ 'wt', 'rd'], order=['ipl', 'opl'], palette='deep')
- #    ax = sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=[ 'wt', 'rd'], order=['ipl', 'opl'], palette='deep')
- #    handles, labels = ax.get_legend_handles_labels()
- #    for patch in ax.artists:
- #      r, g, b, a = patch.get_facecolor()
- #      patch.set_facecolor((r, g, b, .3))
+    # sns.stripplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=[ 'wt', 'rd'], order=['ipl', 'opl'], palette='deep', dodge=True, jitter=True)
+    # sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=[ 'wt', 'rd'], order=['ipl', 'opl'], palette='deep')
+    # ax = sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=[ 'wt', 'rd'], order=['ipl', 'opl'], palette='deep')
+    # handles, labels = ax.get_legend_handles_labels()
+    # for patch in ax.artists:
+    #   r, g, b, a = patch.get_facecolor()
+    #   patch.set_facecolor((r, g, b, .3))
 
- #    plt.legend(handles[0:2], labels[0:2])
- #    plt.title(title)
- #    plt.ylim(0,ylimit)
- #    plt.ylabel(ylabel)
- #    plt.xlabel('Retinal Layer')
- #    plt.show()
+    # plt.legend(handles[0:2], labels[0:2])
+    # plt.title(title)
+    # plt.ylim(0,ylimit)
+    # plt.ylabel(ylabel)
+    # plt.xlabel('Retinal Layer')
+    # plt.show()
 
- #    sns.stripplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df, hue_order= ['na', 'os'],order=['opl'], palette='deep', jitter=True, dodge=True)
- #    sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df, hue_order= ['na', 'os'],order=['opl'], palette='deep')
- #    ax = sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=['na', 'os'], order=['opl'], palette='deep')
- #    handles, labels = ax.get_legend_handles_labels()
- #    for patch in ax.artists:
- #      r, g, b, a = patch.get_facecolor()
- #      patch.set_facecolor((r, g, b, .3))
+    # sns.stripplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df, hue_order= ['wt', 'rd'],order=['opl'], palette='deep', jitter=True, dodge=True)
+    # sns.boxplot(x='mod_retinal_layer', y= 'Value', hue='mod_cond',data = df, hue_order= ['wt', 'rd'],order=['opl'], palette='deep')
+    # ax = sns.boxplot(x='mod_retinal_layer', y= 'Value', hue = 'mod_cond', data = df, hue_order=['wt', 'od'], order=['opl'], palette='deep')
+    # handles, labels = ax.get_legend_handles_labels()
+    # for patch in ax.artists:
+    #   r, g, b, a = patch.get_facecolor()
+    #   patch.set_facecolor((r, g, b, .3))
 
- #    plt.legend(handles[0:2],labels[0:2])
- #    plt.title(title)
- #    plt.ylim(0,ylimit)
- #    plt.ylabel(ylabel)
- #    plt.xlabel('Retinal Layer')
- #    plt.show()   
+    # plt.legend(handles[0:2],labels[0:2])
+    # plt.title(title)
+    # plt.ylim(0,ylimit)
+    # plt.ylabel(ylabel)
+    # plt.xlabel('Retinal Layer')
+    # plt.show()   
     
 
 
