@@ -3,14 +3,17 @@ import glob as glob
 import pandas as pd
 import numpy as np 
 import os
+import string
 
+###### DATA IMPORT TOOLS #########
 
    ##Get simplified file name for specfic cell. Prefix is path name.
 def get_cellname(filepath):
       cellname = os.path.basename(filepath)
       return cellname[:-4]
 
-#import imaris surface file from folders
+#import imaris surface file from folders 
+#antiquated version
 def get_stat_files(filepath, header):
     dfs = []
     for filename in glob.glob(filepath):
@@ -96,6 +99,7 @@ def varname_v9_2(fname):
             break
     return ' '.join(parts[:idx]).strip()
 
+### is there a problem here with the space in join functions??
 def read_v9_2(fname):
     cellname = ' _'.join(os.path.basename(fname).split('_')[0:5])
     variable = varname_v9_2(fname)
@@ -149,22 +153,34 @@ def get_stat2_files(fnames):
         len_count += len(df)
         dfs.append(df)
     ret = pd.concat(dfs, sort=False)
-    assert lencount == len(ret)
+    assert len_count == len(ret)
     return ret
 
 #combine data imports to compile all raw data
 def get_raw_data(data1, data2):
     n = []
+    cond = []
+    timepoint = []
+
     df_all = pd.concat([data1, data2], sort=True)
+    # condition column has spaces at the end of some strings. Clean here. 
+    df_all['condition'] = df_all['condition'].str.strip() 
     # df_all = df_all.drop(columns=['Collection', 'Channel', 'Depth','Image', 'Level', 'Distance', 'FilamentID', 'Surpass Object'])
    
-    for x in df_all.condition:
-        non_num = x.rstrip('012')
+    for x in df_all.sex:
+        non_num = x.strip()
+        non_num = non_num.rstrip(string.digits)
         n.append(non_num)
-    df_all['new_cond'] = n
-    df_all['mod_cond'] = df_all['new_cond'].str[0:-2]
+
+    for y in df_all.condition: 
+        clean = y.strip()
+        cond.append(clean[-2:])
+        timepoint.append(clean[0:-2])
+
+    df_all['mod_cond'] = cond
+    df_all['timepoint'] = timepoint
     df_all['mod_retinal_layer'] = df_all['retinal_layer'].str[:3]
-    df_all['mod_sex'] = df_all['sex'].str[:-1]
+    df_all['mod_sex'] = n
     return df_all
 
 def get_groups(df, groupings, key_col='mod_cond', val_col='mod_retinal_layer'):
@@ -177,6 +193,8 @@ def get_groups(df, groupings, key_col='mod_cond', val_col='mod_retinal_layer'):
             ret[key+value] = kdf[kdf[val_col] == value]
     return ret
 
+
+##### EXTRACTING METRICS #####
 
 
 

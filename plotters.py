@@ -197,10 +197,28 @@ def plot_volume(df, title, ylabel, ymin, ylimit):
     conditions = [df_od, df_os, df_naive]
     colors = sns.color_palette('Set2')#['turquoise', 'tomato','magenta', 'blue']
     hues = ['naive', 'd5', 'd14', 'd35']
+    hue2 = ['od', 'os']
 
     for x in range(len(layers)):
+        #with od/os as hue/boxes
         sns.stripplot(x='timepoint', y='Value', hue='mod_cond', data = layers[x], order=hues, palette=colors, jitter=True, dodge=True)    
         ax = sns.boxplot(x='timepoint', y='Value',  hue='mod_cond', data= layers[x], order=hues, palette=colors)
+        handles, labels = ax.get_legend_handles_labels()
+        for patch in ax.artists:
+            r, g, b, a = patch.get_facecolor()
+            patch.set_facecolor((r, g, b, .1))
+        layer = str(layers[x].mod_retinal_layer.unique())
+
+        plt.title(title + layer +' per condition') 
+        plt.legend(handles[0:2], labels[0:2])
+        plt.ylim(ymin,ylimit)
+        plt.ylabel(ylabel)
+        plt.savefig('Exp_' +title + layer + '.pdf')
+        plt.show()
+
+        #with timepoints as hue/boxes
+        sns.stripplot(x='mod_cond', y='Value', hue='timepoint', data = layers[x], order=hue2, hue_order=hues, palette=colors, jitter=True, dodge=True)    
+        ax = sns.boxplot(x='mod_cond', y='Value',  hue='timepoint', data= layers[x], order=hue2, hue_order=hues, palette=colors)
         handles, labels = ax.get_legend_handles_labels()
         for patch in ax.artists:
             r, g, b, a = patch.get_facecolor()
@@ -211,8 +229,9 @@ def plot_volume(df, title, ylabel, ymin, ylimit):
         plt.legend(handles[0:4], labels[0:4])
         plt.ylim(ymin,ylimit)
         plt.ylabel(ylabel)
-        plt.savefig(title + layer + '.pdf')
+        plt.savefig('Timept_' +title + layer + '.pdf')
         plt.show()
+    
 
     # for i in range(len(conditions)): 
     #     colors = ['c', 'mediumvioletred']
