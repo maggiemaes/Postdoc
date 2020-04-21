@@ -183,6 +183,15 @@ def get_raw_data(data1, data2):
     df_all['mod_sex'] = n
     return df_all
 
+def get_group_data(group_folder):
+    fnames = glob.glob(f'/Users/mmaes/Documents/Python_scripts/{group_folder}/**/*.csv')
+    fnames = [f for f in fnames if not f.endswith('Overall.csv')]
+    data1 = get_stat2_files(fnames)
+    data2 = get_loc_files(f'/Users/mmaes/Documents/Python_scripts/{group_folder}/*.csv')
+    df = get_raw_data(data1, data2)     
+    df.to_csv(f'/Users/mmaes/Documents/Python_scripts/Database/{group_folder}.csv')
+    return df 
+
 def get_groups(df, groupings, key_col='mod_cond', val_col='mod_retinal_layer'):
     ret = {}
     for key in groupings.keys():
@@ -193,10 +202,26 @@ def get_groups(df, groupings, key_col='mod_cond', val_col='mod_retinal_layer'):
             ret[key+value] = kdf[kdf[val_col] == value]
     return ret
 
+def new_descriptor(df, rep_column, new_col_title, dict_replacements):
+    df_copy = df.copy()
+    df_copy[new_col_title] = df_copy[rep_column]
+    df_copy = df_copy.replace({new_col_title: dict_replacements})
+    return df_copy
+
+
+
 
 ##### EXTRACTING METRICS #####
 
-
+#mitochonria volume
+def get_mitovol(raw_df, groupby_arg):
+    df_mitovol = raw_df[(raw_df.Variable == 'Volume') & (raw_df.surface_type == 'mito')]
+    df_mitovol= df_mitovol[(df_mitovol.Value >= 0.01)]  #some files the remanants of cutting surfaces remains and they skew data. Remove them.
+    cell = df_mitovol.groupby(['surface_type','sex', 'condition', 'retinal_layer','mod_sex', 'mod_cond', 'mod_cond2', 'timepoint', 'mod_retinal_layer']).groupby_arg()['Value']
+    mito_cell = cell.to_frame().reset_index()
+    mito_cell = mito_cell[(mito_cell.timepoint != 'wt') & (mito_cell.timepoint != 'rd')] #can likely remove this if databases are separate
+    mito_cell['Variable'] = mito_cell['mod_retinal_layer'].str.cat(mito_cell['mod_cond'], sep='_')
+    return mito_cell
 
 
 
